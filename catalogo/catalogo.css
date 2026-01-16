@@ -1,0 +1,380 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --cor-destaque: #7b685c;
+  --cor-fundo1: #3d2613;
+  --cor-fundo2: #fffafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Calibri" bold;
+  overflow-x: hidden;
+}
+
+/* ================ NAV ================ */
+
+header {
+  border-bottom: 1px solid #1f29373a;
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  background-color: var(--cor-fundo1);
+  font-family: "Roboto" bold;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  display: inline-block;
+  align-items: center;
+  width: 100rem;
+  z-index: 10000;
+  max-width: 100rem;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  z-index: 10000;
+}
+
+#cr {
+  border-radius: 6px;
+  color: white;
+  cursor: auto;
+  font-style: bold;
+  z-index: 10000;
+  font-size: 18pt;
+}
+
+#contabilidade {
+  color: white;
+  cursor: auto;
+  font-style: bold;
+  z-index: 10000;
+  font-size: 10pt;
+}
+
+#parteDireita {
+  color: white;
+  font-size: 12pt;
+  cursor: normal;
+  z-index: 10000;
+}
+
+#parteDireita:hover {
+  color: var(--cor-destaque);
+}
+
+#orcamento {
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 12pt;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+#orcamento:hover {
+  background-color: #50423a;
+  z-index: 10000;
+}
+
+.divSuprema {
+  width: 100rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50rem;
+}
+
+ul {
+  width: 100%;
+  display: inline-block;
+}
+
+/* ============== FIM NAV ================== */
+
+/* ============== FOOTER ============ */
+
+#solicitar {
+  width: 100%;
+  height: 35rem;
+  background-color: #3d2613;
+}
+
+.centralizar {
+  gap: 50px;
+  text-align: center;
+  color: white;
+}
+
+.centralizar h1,
+.centralizar p {
+  margin-bottom: 20px;
+}
+
+.centralizar a {
+  color: white;
+  background-color: #50423a;
+}
+
+.centralizar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.esquerda2 {
+  padding: 30px;
+  width: 390px;
+}
+
+#cr2 {
+  border-radius: 6px;
+  padding: 3px;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  background-color: var(--cor-destaque);
+  cursor: auto;
+  font-style: bold;
+  z-index: 10000;
+  font-size: 18pt;
+}
+
+#contabilidade2 {
+  color: #1f2937;
+  cursor: auto;
+  font-style: bold;
+  z-index: 10000;
+  font-size: 18pt;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.esquerda2 p {
+  color: white;
+}
+
+.linksRapidos {
+  display: block;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 30px;
+  margin-top: 93px;
+}
+
+.linksRapidos a {
+  color: white;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contatos {
+  margin-top: 110px;
+  color: white;
+  font-size: 10pt;
+}
+
+.redesSociais {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 5px;
+}
+
+.redesSociais i {
+  margin-bottom: 20px;
+  color: #6b7280;
+  background-color: #1f2937;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.redesSociais p {
+  color: white;
+}
+
+.direitosReservados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6b7280;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.direitosReservados2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6b7280;
+}
+
+#telephone2 {
+  margin-top: 20px;
+  color: var(--cor-destaque);
+  background-color: rgba(124, 45, 55, 0.1);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -10px;
+  z-index: 1000;
+}
+
+/* ============== FIM FOOTER ============ */
+
+/* ============== CARDS ================= */
+.cards2,
+.cards1 {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 5rem;
+}
+
+.card {
+  width: 220px;
+  border-radius: 8px;
+  overflow: hidden; /* corta a imagem no limite do card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: inline-block;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+/* Parte da imagem */
+.card-image {
+  height: 250px; /* controla até onde a imagem vai */
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image-span {
+  display: flex;
+  justify-content: end;
+}
+
+.preco {
+  color: #d6d308e6;
+}
+
+/* Parte branca */
+.card-info {
+  padding: 12px;
+  background-color: white;
+  color: black;
+}
+
+.card-info h3 {
+  margin: 0;
+  font-size: 16px;
+  color: black;
+}
+
+.card-info p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.explorarPorGeneros {
+  background-color: #d2c7b6;
+  height: 11rem;
+}
+
+.explorePorGenero {
+  margin: 0 7rem;
+}
+
+.generos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.rockClassico {
+  width: 15rem;
+  height: 9rem;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.card-image span {
+  margin-right: 0.5rem;
+  color: white;
+  background-color: #3d2613;
+  padding: 4px 8px;
+  margin-top: 5px;
+}
+
+/* Parte branca */
+.card-info {
+  padding: 12px;
+  background-color: white;
+}
+
+/* ========= FIM CARDS ============ */
+
+.container {
+  width: 100%;
+  text-align: start;
+  margin-top: 4rem;
+  background-color: #3d2613;
+  color: white;
+}
+.container h2,
+.container p {
+  margin: 40px 50px;
+}
+
+#filtroArtista {
+  width: 90%;
+  padding: 10px;
+  margin: 20px 0 20px 30px;
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.centralizar {
+  margin: auto;
+  text-align: center;
+}
+
+#catalogo {
+  background-color: #f4ede5;
+}
