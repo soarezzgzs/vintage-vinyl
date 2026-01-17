@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,26 @@
     <link rel="stylesheet" href="catalogo.css">
 </head>
 <header>
-        <nav>
-            <ul>
-                <div class="divSuprema">
-                    <div class="esquerda">                      
-                        <p id="cr"><a href="#"></a>Vintage Vinyl</p>
-                        <br>
-                        <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
-                    </div>
-                    <div class="direita">  
-                        <li><a id="parteDireita" href="../index.html">Inicio</a></li>
-                        <li><a id="parteDireita" href="./catalogo.html">Catálogo</a></li>
-                        <li><a id="parteDireita" href="#novidades">Novidades</a></li>
-                        <li><a id="parteDireita" href="#sobre">Sobre</a></li>
-                        <li><a id="orcamento" href="#contato">Contato</a></li>
-                    </div>  
+    <nav>
+        <ul>
+            <div class="divSuprema">
+                <div class="esquerda">
+                    <p id="cr"><a href="#"></a>Vintage Vinyl</p>
+                    <br>
+                    <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
                 </div>
-                </ul>
-        </nav>
-    </header>
+                <div class="direita">
+                    <li><a id="parteDireita" href="../index.html">Inicio</a></li>
+                    <li><a id="parteDireita" href="./catalogo.html">Catálogo</a></li>
+                    <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
+                    <li><a id="parteDireita" href="#sobre">Sobre</a></li>
+                    <li><a id="orcamento" href="#contato">Contato</a></li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+</header>
+
 <body>
     <div class="container">
         <h2>Catálogo de Vinis</h2>
@@ -34,6 +36,20 @@
     </div>
     <div class="filter">
         <input id="filtroArtista" type="search" placeholder="Buscar por artista ou álbum...">
+        <div class="filter-toggle">
+            <label class="checkbox-toggle">
+                <input type="checkbox" id="genreToggle"> Filtrar por Gênero
+                <span class="toggle-icon">▼</span>
+            </label>
+        </div>
+        <div id="genreOptions" class="filter-checkboxes" style="display: none;">
+            <label><input type="checkbox" class="genreCheckbox" value="Thrash Metal"> Thrash Metal</label>
+            <label><input type="checkbox" class="genreCheckbox" value="Heavy Metal"> Heavy Metal</label>
+            <label><input type="checkbox" class="genreCheckbox" value="Groove Metal"> Groove Metal</label>
+            <label><input type="checkbox" class="genreCheckbox" value="Hard Rock"> Hard Rock</label>
+            <label><input type="checkbox" class="genreCheckbox" value="Rock nacional"> Rock nacional</label>
+            <label><input type="checkbox" class="genreCheckbox" value="Death Metal"> Death Metal</label>
+        </div>
     </div>
     <section id="catalogo">
         <div class="centralizar">
@@ -42,26 +58,34 @@
                 <div id="card2"></div>
                 <div id="card3"></div>
                 <div id="card4"></div>
-        <div id="card5"></div>
-    </div>
-    <div class="cards2">
-        <div id="card6"></div>
-        <div id="card7"></div>
-        <div id="card8"></div>
-        <div id="card9"></div>
-        <div id="card10"></div>
-    </div>
-</div>
-</section>
+                <div id="card5"></div>
+            </div>
+            <div class="cards2">
+                <div id="card6"></div>
+                <div id="card7"></div>
+                <div id="card8"></div>
+                <div id="card9"></div>
+                <div id="card10"></div>
+            </div>
+            <div class="cards3">
+                <div id="card11"></div>
+                <div id="card12"></div>
+                <div id="card13"></div>
+                <div id="card14"></div>
+                <div id="card15"></div>
+            </div>
+            <div class="cards4">
+                <div id="card16"></div>
+                <div id="card17"></div>
+                <div id="card18"></div>
+                <div id="card19"></div>
+                <div id="card20"></div>
+            </div>
+        </div>
+    </section>
 </body>
 <footer id="solicitar">
-    <div class="centralizar">
-        <h1>Não encontrou o que procura?</h1>     
-        <p>Entre em contato conosco via WhatsApp e vamos te ajudar a encontrar aquele disco especial.</p>
-        <a href="#">Falar no WhatsApp</a>
-        </div>
-        <div class="centralizar2">
-
+    <div class="centralizar2">
         <div class="esquerda2">
 
             <li id="cr2"><a href="#"></a>CR</li>
@@ -78,29 +102,31 @@
         <div class="contatos">
             <li id="contabilidade2">Contatos</li>
             <div class="subDireita2">
-                        <i id="telephone2" class="fa-solid fa-phone"></i>
-                        <div class="titulos3">
-                            <p>Telefone: (35) 98443-1748</p>
-                        </div>
-                    </div>
-                    <div class="subDireita2">
-                        <i id="telephone2" class="fa-solid fa-envelope"></i>
-                        <div class="titulos3">
-                            <p>E-mail: camilaribeiro183@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="subDireita2">
-                        <i id="telephone2" class="fa-solid fa-location-dot"></i>
-                        <div class="titulos3">
-                            <p>Atendimento: 100% online - Atendemos todo o Brasil.</p>
-                        </div>
-                    </div>
+                <i id="telephone2" class="fa-solid fa-phone"></i>
+                <div class="titulos3">
+                    <p>Telefone: (35) 98443-1748</p>
+                </div>
+            </div>
+            <div class="subDireita2">
+                <i id="telephone2" class="fa-solid fa-envelope"></i>
+                <div class="titulos3">
+                    <p>E-mail: camilaribeiro183@gmail.com</p>
+                </div>
+            </div>
+            <div class="subDireita2">
+                <i id="telephone2" class="fa-solid fa-location-dot"></i>
+                <div class="titulos3">
+                    <p>Atendimento: 100% online - Atendemos todo o Brasil.</p>
+                </div>
+            </div>
         </div>
         <div class="redesSociais">
             <li id="contabilidade2">Redes Sociais</li>
             <div>
-                <a href="https://www.linkedin.com/in/camila-ribeiro-45aaa7172/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href=https://www.instagram.com/cr_contabilidade183/ target="_blank" rel="noopener noreferrer" class="instagram-icon"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/camila-ribeiro-45aaa7172/" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href=https://www.instagram.com/cr_contabilidade183/ target="_blank" rel="noopener noreferrer"
+                    class="instagram-icon"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
             <p>Siga-nos para dicas e novidades sobre contabilidade!</p>
         </div>
@@ -108,8 +134,9 @@
     <div class="direitosReservados">
         <p>© 2026 CR Contabilidade. Todos os direitos reservados.</p>
     </div>
-        </div>
+    </div>
 
 </footer>
 <script src="catalogo.js"></script>
+
 </html>

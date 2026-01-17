@@ -253,10 +253,8 @@ ul {
 /* ============== FIM FOOTER ============ */
 
 /* ============== CARDS ================= */
-.cards1, 
 .cards2,
-.cards3,
-.cards4{
+.cards1 {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -369,14 +367,12 @@ ul {
 
 .filter{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   width: fit-content;
   margin: auto;
   position: relative;
-  gap: 15px;
 }
 
 #filtroArtista {
@@ -388,91 +384,6 @@ ul {
   background-color: white;
 }
 
-.filter-checkboxes {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.filter-checkboxes label {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.filter-checkboxes input[type="checkbox"] {
-  cursor: pointer;
-  width: 18px;
-  height: 18px;
-  accent-color: var(--cor-destaque);
-}
-
-.filter-toggle {
-  margin-top: 10px;
-}
-
-.checkbox-toggle {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 10px 15px;
-  background-color: var(--cor-destaque);
-  color: white;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-.checkbox-toggle:hover {
-  background-color: #6a5849;
-}
-
-.checkbox-toggle input[type="checkbox"] {
-  cursor: pointer;
-  width: 18px;
-  height: 18px;
-  accent-color: white;
-  margin: 0;
-}
-
-.toggle-icon {
-  transition: transform 0.3s ease;
-  display: inline-block;
-}
-
-.checkbox-toggle input[type="checkbox"]:checked ~ .toggle-icon {
-  transform: rotate(180deg);
-}
-
-.filter-checkboxes {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 15px;
-  padding: 15px;
-  background-color: #f4ede5;
-  border-radius: 5px;
-  animation: slideDown 0.3s ease;
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .centralizar {
   margin: auto;
   text-align: center;
@@ -480,6 +391,25 @@ ul {
 
 #catalogo {
   background-color: #f4ede5;
-  height: 100rem;
+  height: 70rem;
 }
 
+.aviso{
+  background-color: #D4BFA5;
+  padding: 50px;
+  width: 77rem;
+  margin: 20px auto;
+}
+.aviso h2{
+  color: black;
+  margin-bottom: 20px;
+}
+.aviso p{
+  color: #3d2613;
+  margin-bottom: 70px;
+}
+.aviso a{
+  padding: 20px 50px;
+  background-color: orange;
+  color: white;
+}
