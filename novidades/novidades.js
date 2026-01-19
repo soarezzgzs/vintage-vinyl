@@ -53,7 +53,6 @@ document.getElementById("card1").innerHTML = `
             <h3>${cardMetallica.title}</h3>
             <p>${cardMetallica.artist}</p>
             <p class="preco"><strong>R$ ${cardMetallica.price.toFixed(2)}</strong></p>
-            <p>${cardMetallica.genre} - ${cardMetallica.year}</p>
         </div>
     </div>
 `;
@@ -65,7 +64,6 @@ document.getElementById("card2").innerHTML = `
             <h3>${cardInjustice.title}</h3>
             <p>${cardInjustice.artist}</p>
             <p class="preco"><strong>R$ ${cardInjustice.price.toFixed(2)}</strong></p>
-            <p>${cardInjustice.genre} - ${cardInjustice.year}</p>
         </div>
     </div>
 `;
@@ -77,7 +75,6 @@ document.getElementById("card3").innerHTML = `
             <h3>${cardFearOf.title}</h3>
             <p>${cardFearOf.artist}</p>
             <p class="preco"><strong>R$ ${cardFearOf.price.toFixed(2)}</strong></p>
-            <p>${cardFearOf.genre} - ${cardFearOf.year}</p>
         </div>
     </div>
 `;
@@ -89,7 +86,6 @@ document.getElementById("card4").innerHTML = `
             <h3>${cardVulgarPower.title}</h3>
             <p>${cardVulgarPower.artist}</p>
             <p class="preco"><strong>R$ ${cardVulgarPower.price.toFixed(2)}</strong></p>
-            <p>${cardVulgarPower.genre} - ${cardVulgarPower.year}</p>
         </div>
     </div>
 `;
@@ -101,7 +97,6 @@ document.getElementById("card5").innerHTML = `
             <h3>${cardUseYourIlusion.title}</h3>
             <p>${cardUseYourIlusion.artist}</p>
             <p class="preco"><strong>R$ ${cardUseYourIlusion.price.toFixed(2)}</strong></p>
-            <p>${cardUseYourIlusion.genre} - ${cardUseYourIlusion.year}</p>
         </div>
     </div>
 `;
@@ -163,7 +158,6 @@ document.getElementById("card6").innerHTML = `
             <h3>${cardQuatroEstacoes.title}</h3>
             <p>${cardQuatroEstacoes.artist}</p>
             <p class="preco"><strong>R$ ${cardQuatroEstacoes.price.toFixed(2)}</strong></p>
-            <p>${cardQuatroEstacoes.genre} - ${cardQuatroEstacoes.year}</p>
         </div>
     </div>
 `;
@@ -175,7 +169,6 @@ document.getElementById("card7").innerHTML = `
             <h3>${cardAlivioImediato.title}</h3>
             <p>${cardAlivioImediato.artist}</p>
             <p class="preco"><strong>R$ ${cardAlivioImediato.price.toFixed(2)}</strong></p>
-            <p>${cardAlivioImediato.genre} - ${cardAlivioImediato.year}</p>
 
         </div>
     </div>
@@ -188,7 +181,6 @@ document.getElementById("card8").innerHTML = `
             <h3>${cardEnvelhecoCidade.title}</h3>
             <p>${cardEnvelhecoCidade.artist}</p>
             <p class="preco"><strong>R$ ${cardEnvelhecoCidade.price.toFixed(2)}</strong></p>
-            <p>${cardEnvelhecoCidade.genre} - ${cardEnvelhecoCidade.year}</p>
 
         </div>
     </div>
@@ -201,7 +193,6 @@ document.getElementById("card9").innerHTML = `
             <h3>${cardCardume.title}</h3>
             <p>${cardCardume.artist}</p>
             <p class="preco"><strong>R$ ${cardCardume.price.toFixed(2)}</strong></p>
-            <p>${cardCardume.genre} - ${cardCardume.year}</p>
         </div>
     </div>
 `;
@@ -213,7 +204,6 @@ document.getElementById("card10").innerHTML = `
             <h3>${cardCamisaVenus.title}</h3>
             <p>${cardCamisaVenus.artist}</p>
             <p class="preco"><strong>R$ ${cardCamisaVenus.price.toFixed(2)}</strong></p>
-            <p>${cardCamisaVenus.genre} - ${cardCamisaVenus.year}</p>
         </div>
     </div>
 `;
@@ -231,7 +221,6 @@ function renderCards(discos) {
                     <h3>${disco.title}</h3>
                     <p>${disco.artist}</p>
                     <p class="preco"><strong>R$ ${disco.price.toFixed(2)}</strong></p>
-                    <p>${disco.genre} - ${disco.year}</p>
                 </div>
             </div>
         `;

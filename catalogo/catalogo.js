@@ -5,7 +5,7 @@ let cardMetallica = {
     title: "Master of Puppets",
     artist: "Metallica",
     year: 1986,
-    genre: "Thrash Metal",
+    genre: "thrashMetal",
     price: 180.00
 };
 
@@ -14,7 +14,7 @@ let cardInjustice = {
     title: "Injustice For All",
     artist: "Metallica",
     year: 1986,
-    genre: "Thrash Metal",
+    genre: "thrashMetal",
     price: 180.00
 };
 
@@ -23,7 +23,7 @@ let cardFearOf = {
     title: "Fear of the Dark",
     artist: "Iron Maiden",
     year: 1980,
-    genre: "Heavy Metal",
+    genre: "heavyMetal",
     price: 150.00
 };
 
@@ -32,7 +32,7 @@ let cardVulgarPower = {
     title: "Vulgar Power",
     artist: "Pantera",
     year: 1992,
-    genre: "Groove Metal",
+    genre: "grooveMetal",
     price: 120.00
 };
 
@@ -42,7 +42,7 @@ let cardUseYourIlusion = {
     title: "Use Your Ilusion",
     artist: "Guns N' Roses",
     year: 1991,
-    genre: "Hard Rock",
+    genre: "hardRock",
     price: 160.00
 };
 
@@ -51,7 +51,7 @@ let cardMetallicaBlack = {
     title: "Metallica",
     artist: "Metallica",
     year: 1991,
-    genre: "Thrash Metal",
+    genre: "thrashMetal",
     price: 160.00
 };
 
@@ -60,7 +60,7 @@ let cardRideTheLight = {
     title: "Ride The Lightning",
     artist: "Metallica",
     year: 1991,
-    genre: "Thrash Metal",
+    genre: "thrashMetal",
     price: 160.00
 };
 
@@ -69,7 +69,7 @@ let cardLegion = {
     title: "Legion",
     artist: "Deicide",
     year: 1991,
-    genre: "Death Metal",
+    genre: "deathMetal",
     price: 160.00
 };
 
@@ -78,7 +78,7 @@ let cardDeicide = {
     title: "Deicide",
     artist: "Deicide",
     year: 1991,
-    genre: "Death Metal",
+    genre: "deathMetal",
     price: 160.00
 };
 
@@ -87,7 +87,7 @@ let cardIronMaiden = {
     title: "Iron Maiden",
     artist: "Iron Maiden",
     year: 1991,
-    genre: "Heavy Metal",
+    genre: "heavyMetal",
     price: 160.00
 };
 
@@ -96,7 +96,7 @@ let cardKillers = {
     title: "Killers",
     artist: "Iron Maiden",
     year: 1991,
-    genre: "Heavy Metal",
+    genre: "heavyMetal",
     price: 160.00
 };
 
@@ -105,7 +105,7 @@ let cardFarBeyond = {
     title: "FarBeyond",
     artist: "Pantera",
     year: 1991,
-    genre: "Thrash Metal",
+    genre: "thrashMetal",
     price: 160.00
 };
 
@@ -114,7 +114,7 @@ let cardBlackOfSouls = {
     title: "BlackOfSouls",
     artist: "Testament",
     year: 1991,
-    genre: "Thrash Metal",
+    genre: "thrashMetal",
     price: 160.00
 };
 
@@ -123,7 +123,7 @@ let cardObituary = {
     title: "Obituary Slowly we rot",
     artist: "Obituary",
     year: 1991,
-    genre: "Death Metal",
+    genre: "deathMetal",
     price: 160.00
 };
 
@@ -132,7 +132,7 @@ let cardEndComplete = {
     title: "EndComplete",
     artist: "Obituary",
     year: 1991,
-    genre: "Death Metal",
+    genre: "deathMetal",
     price: 160.00
 };
 
@@ -145,7 +145,6 @@ document.getElementById("card1").innerHTML = `
             <h3>${cardMetallica.title}</h3>
             <p>${cardMetallica.artist}</p>
             <p class="preco"><strong>R$ ${cardMetallica.price.toFixed(2)}</strong></p>
-            <p>${cardMetallica.genre} - ${cardMetallica.year}</p>
         </div>
     </div>
 `;
@@ -157,7 +156,6 @@ document.getElementById("card2").innerHTML = `
             <h3>${cardInjustice.title}</h3>
             <p>${cardInjustice.artist}</p>
             <p class="preco"><strong>R$ ${cardInjustice.price.toFixed(2)}</strong></p>
-            <p>${cardInjustice.genre} - ${cardInjustice.year}</p>
         </div>
     </div>
 `;
@@ -169,7 +167,6 @@ document.getElementById("card3").innerHTML = `
             <h3>${cardFearOf.title}</h3>
             <p>${cardFearOf.artist}</p>
             <p class="preco"><strong>R$ ${cardFearOf.price.toFixed(2)}</strong></p>
-            <p>${cardFearOf.genre} - ${cardFearOf.year}</p>
         </div>
     </div>
 `;
@@ -181,7 +178,6 @@ document.getElementById("card4").innerHTML = `
             <h3>${cardVulgarPower.title}</h3>
             <p>${cardVulgarPower.artist}</p>
             <p class="preco"><strong>R$ ${cardVulgarPower.price.toFixed(2)}</strong></p>
-            <p>${cardVulgarPower.genre} - ${cardVulgarPower.year}</p>
         </div>
     </div>
 `;
@@ -193,7 +189,6 @@ document.getElementById("card5").innerHTML = `
             <h3>${cardUseYourIlusion.title}</h3>
             <p>${cardUseYourIlusion.artist}</p>
             <p class="preco"><strong>R$ ${cardUseYourIlusion.price.toFixed(2)}</strong></p>
-            <p>${cardUseYourIlusion.genre} - ${cardUseYourIlusion.year}</p>
         </div>
     </div>
 `;
@@ -207,7 +202,7 @@ let cardQuatroEstacoes = {
     title: "Quatro Estações",
     artist: "Legião Urbana",
     year: 1989,
-    genre: "Rock nacional",
+    genre: "rockNacional",
     price: 180.00
 };
 
@@ -216,7 +211,7 @@ let cardAlivioImediato = {
     title: "Alívio Imediato",
     artist: "Engenheiros do Hawaii",
     year: 1989,
-    genre: "Rock nacional",
+    genre: "rockNacional",
     price: 180.00
 };
 
@@ -225,7 +220,7 @@ let cardEnvelhecoCidade = {
     title: "Envelheço Cidade",
     artist: "Ira!",
     year: 1986,
-    genre: "Rock nacional",
+    genre: "rockNacional",
     price: 180.00
 };
 
@@ -235,7 +230,7 @@ let cardCardume = {
     title: "Cardume",
     artist: "Nenhum de Nós",
     year: 1989,
-    genre: "Rock nacional",
+    genre: "rockNacional",
     price: 180.00
 };
 
@@ -244,7 +239,7 @@ let cardCamisaVenus = {
     title: "Camisa Vênus",
     artist: "Camisa de Vênus",
     year: 1986,
-    genre: "Rock nacional",
+    genre: "rockNacional",
     price: 180.00
 };
 
@@ -255,7 +250,6 @@ document.getElementById("card6").innerHTML = `
             <h3>${cardQuatroEstacoes.title}</h3>
             <p>${cardQuatroEstacoes.artist}</p>
             <p class="preco"><strong>R$ ${cardQuatroEstacoes.price.toFixed(2)}</strong></p>
-            <p>${cardQuatroEstacoes.genre} - ${cardQuatroEstacoes.year}</p>
         </div>
     </div>
 `;
@@ -267,7 +261,6 @@ document.getElementById("card7").innerHTML = `
             <h3>${cardAlivioImediato.title}</h3>
             <p>${cardAlivioImediato.artist}</p>
             <p class="preco"><strong>R$ ${cardAlivioImediato.price.toFixed(2)}</strong></p>
-            <p>${cardAlivioImediato.genre} - ${cardAlivioImediato.year}</p>
 
         </div>
     </div>
@@ -280,7 +273,6 @@ document.getElementById("card8").innerHTML = `
             <h3>${cardEnvelhecoCidade.title}</h3>
             <p>${cardEnvelhecoCidade.artist}</p>
             <p class="preco"><strong>R$ ${cardEnvelhecoCidade.price.toFixed(2)}</strong></p>
-            <p>${cardEnvelhecoCidade.genre} - ${cardEnvelhecoCidade.year}</p>
 
         </div>
     </div>
@@ -293,7 +285,6 @@ document.getElementById("card9").innerHTML = `
             <h3>${cardCardume.title}</h3>
             <p>${cardCardume.artist}</p>
             <p class="preco"><strong>R$ ${cardCardume.price.toFixed(2)}</strong></p>
-            <p>${cardCardume.genre} - ${cardCardume.year}</p>
         </div>
     </div>
 `;
@@ -305,7 +296,6 @@ document.getElementById("card10").innerHTML = `
             <h3>${cardCamisaVenus.title}</h3>
             <p>${cardCamisaVenus.artist}</p>
             <p class="preco"><strong>R$ ${cardCamisaVenus.price.toFixed(2)}</strong></p>
-            <p>${cardCamisaVenus.genre} - ${cardCamisaVenus.year}</p>
         </div>
     </div>
 `;
@@ -314,12 +304,11 @@ document.getElementById("card10").innerHTML = `
 
 document.getElementById("card11").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardMetallicaBlack.image}')"><div class="card-image-span"><span>${cardMetallicaBlack.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${cardMetallicaBlack.image}')"><div class="card-image-span"></div></div>
         <div class="card-info">
             <h3>${cardMetallicaBlack.title}</h3>
             <p>${cardMetallicaBlack.artist}</p>
             <p class="preco"><strong>R$ ${cardMetallicaBlack.price.toFixed(2)}</strong></p>
-            <p>${cardMetallicaBlack.genre} - ${cardMetallicaBlack.year}</p>
         </div>
     </div>
 `;
@@ -331,7 +320,6 @@ document.getElementById("card12").innerHTML = `
             <h3>${cardRideTheLight.title}</h3>
             <p>${cardRideTheLight.artist}</p>
             <p class="preco"><strong>R$ ${cardRideTheLight.price.toFixed(2)}</strong></p>
-            <p>${cardRideTheLight.genre} - ${cardRideTheLight.year}</p>
         </div>
     </div>
 `;
@@ -343,7 +331,6 @@ document.getElementById("card13").innerHTML = `
             <h3>${cardLegion.title}</h3>
             <p>${cardLegion.artist}</p>
             <p class="preco"><strong>R$ ${cardLegion.price.toFixed(2)}</strong></p>
-            <p>${cardLegion.genre} - ${cardLegion.year}</p>
         </div>
     </div>
 `;
@@ -355,7 +342,6 @@ document.getElementById("card14").innerHTML = `
             <h3>${cardDeicide.title}</h3>
             <p>${cardDeicide.artist}</p>
             <p class="preco"><strong>R$ ${cardDeicide.price.toFixed(2)}</strong></p>
-            <p>${cardDeicide.genre} - ${cardDeicide.year}</p>
         </div>
     </div>
 `;
@@ -367,7 +353,6 @@ document.getElementById("card15").innerHTML = `
             <h3>${cardIronMaiden.title}</h3>
             <p>${cardIronMaiden.artist}</p>
             <p class="preco"><strong>R$ ${cardIronMaiden.price.toFixed(2)}</strong></p>
-            <p>${cardIronMaiden.genre} - ${cardIronMaiden.year}</p>
         </div>
     </div>
 `;
@@ -379,7 +364,6 @@ document.getElementById("card16").innerHTML = `
             <h3>${cardKillers.title}</h3>
             <p>${cardKillers.artist}</p>
             <p class="preco"><strong>R$ ${cardKillers.price.toFixed(2)}</strong></p>
-            <p>${cardKillers.genre} - ${cardKillers.year}</p>
         </div>
     </div>
 `;
@@ -391,7 +375,6 @@ document.getElementById("card17").innerHTML = `
             <h3>${cardFarBeyond.title}</h3>
             <p>${cardFarBeyond.artist}</p>
             <p class="preco"><strong>R$ ${cardFarBeyond.price.toFixed(2)}</strong></p>
-            <p>${cardFarBeyond.genre} - ${cardFarBeyond.year}</p>
         </div>
     </div>
 `;
@@ -403,7 +386,6 @@ document.getElementById("card18").innerHTML = `
             <h3>${cardBlackOfSouls.title}</h3>
             <p>${cardBlackOfSouls.artist}</p>
             <p class="preco"><strong>R$ ${cardBlackOfSouls.price.toFixed(2)}</strong></p>
-            <p>${cardBlackOfSouls.genre} - ${cardBlackOfSouls.year}</p>
         </div>
     </div>
 `;
@@ -415,7 +397,6 @@ document.getElementById("card19").innerHTML = `
             <h3>${cardEndComplete.title}</h3>
             <p>${cardEndComplete.artist}</p>
             <p class="preco"><strong>R$ ${cardEndComplete.price.toFixed(2)}</strong></p>
-            <p>${cardEndComplete.genre} - ${cardEndComplete.year}</p>
         </div>
     </div>
 `;
@@ -423,12 +404,11 @@ document.getElementById("card19").innerHTML = `
 
 document.getElementById("card20").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardObituary.image}')"><div class="card-image-span"><span>${cardObituary.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${cardObituary.image}')"><div class="card-image-span"></div></div>
         <div class="card-info">
             <h3>${cardObituary.title}</h3>
             <p>${cardObituary.artist}</p>
             <p class="preco"><strong>R$ ${cardObituary.price.toFixed(2)}</strong></p>
-            <p>${cardObituary.genre} - ${cardObituary.year}</p>
         </div>
     </div>
 `;
@@ -437,74 +417,54 @@ document.getElementById("card20").innerHTML = `
 // Array de todos os discos
 let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardAlivioImediato, cardEnvelhecoCidade, cardCardume, cardCamisaVenus, cardMetallicaBlack, cardRideTheLight, cardLegion, cardDeicide, cardIronMaiden, cardKillers, cardFarBeyond, cardBlackOfSouls, cardEndComplete, cardObituary];
 
-// Função para renderizar os cards
+const listaCards = document.getElementById("centralizar");
+const contador = document.getElementById("contador");
+
 function renderCards(discos) {
-    discos.forEach((disco, index) => {
-        let cardTemplate = `
-            <div class="card">
-                <div class="card-image" style="background-image: url('${disco.image}')"><div class="card-image-span"><span>${disco.genre}</span></div></div>
-                <div class="card-info">
-                    <h3>${disco.title}</h3>
-                    <p>${disco.artist}</p>
-                    <p class="preco"><strong>R$ ${disco.price.toFixed(2)}</strong></p>
-                    <p>${disco.genre} - ${disco.year}</p>
-                </div>
-            </div>
-        `;
-        document.getElementById("card" + (index + 1)).innerHTML = cardTemplate;
-    });
+  listaCards.innerHTML = "";
 
-    // Esconder cards vazios se houver menos discos
-    for (let i = discos.length + 1; i <= 20; i++) {
-        document.getElementById("card" + i).innerHTML = "";
-    }
+  discos.forEach(disco => {
+    listaCards.innerHTML += `
+      <div class="card">
+        <div class="card-image" style="background-image:url('${disco.image}')">
+        </div>
+        <div class="card-info">
+          <h3>${disco.title}</h3>
+          <p>${disco.artist}</p>
+          <p class="preco">R$ ${disco.price.toFixed(2)}</p>
+        </div>
+      </div>
+    `;
+  });
+
+  contador.textContent = `${discos.length} discos encontrados`;
 }
 
-// Função de filtro em tempo real
+// ===== FILTRO COMBINADO =====
 function filtrarDiscos() {
-    let filtroTexto = document.getElementById("filtroArtista").value;
-    let generosSelected = Array.from(document.querySelectorAll(".genreCheckbox:checked")).map(cb => cb.value);
+  const texto = document.getElementById("filtroArtista").value.toLowerCase();
+  const genero = document.getElementById("filtro-genero").value;
 
-    let resultado = todosDiscos.filter(function (disco) {
-        let textMatch = disco.artist.toLowerCase().includes(filtroTexto.toLowerCase()) ||
-            disco.title.toLowerCase().includes(filtroTexto.toLowerCase());
+  const resultado = todosDiscos.filter(disco => {
+    const matchTexto =
+      disco.artist.toLowerCase().includes(texto) ||
+      disco.title.toLowerCase().includes(texto);
 
-        // Se nenhum gênero selecionado, mostrar todos; caso contrário, filtrar por gênero
-        let genreMatch = generosSelected.length === 0 || generosSelected.includes(disco.genre);
+    const matchGenero =
+      genero === "todos" || disco.genre === genero;
 
-        return textMatch && genreMatch;
-    });
+    return matchTexto && matchGenero;
+  });
 
-    renderCards(resultado);
+  renderCards(resultado);
 }
 
-// Adicionar listener ao input de busca
+// ===== EVENTOS =====
 document.getElementById("filtroArtista").addEventListener("input", filtrarDiscos);
+document.getElementById("filtro-genero").addEventListener("change", filtrarDiscos);
 
-// Adicionar listeners aos checkboxes de gênero
-document.querySelectorAll(".genreCheckbox").forEach(checkbox => {
-    checkbox.addEventListener("change", filtrarDiscos);
-});
+// ===== INICIAL =====
+renderCards(todosDiscos);
 
-// Toggle para expandir/recolher as opções de gênero
-document.getElementById("genreToggle").addEventListener("change", function () {
-    let genreOptions = document.getElementById("genreOptions");
-    if (this.checked) {
-        genreOptions.style.display = "flex";
-    } else {
-        genreOptions.style.display = "none";
-        // Desmarcar todos os checkboxes de gênero quando fechar
-        document.querySelectorAll(".genreCheckbox").forEach(checkbox => {
-            checkbox.checked = false;
-        });
-        filtrarDiscos();
-    }
-});
 
-// Função show() para compatibilidade com o botão existente
-function show() {
-    filtrarDiscos();
-}
-
-// Função de quando clicar no disco
 

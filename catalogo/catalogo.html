@@ -36,50 +36,46 @@
     </div>
     <div class="filter">
         <input id="filtroArtista" type="search" placeholder="Buscar por artista ou álbum...">
-        <div class="filter-toggle">
-            <label class="checkbox-toggle">
-                <input type="checkbox" id="genreToggle"> Filtrar por Gênero
-                <span class="toggle-icon">▼</span>
-            </label>
-        </div>
-        <div id="genreOptions" class="filter-checkboxes" style="display: none;">
-            <label><input type="checkbox" class="genreCheckbox" value="Thrash Metal"> Thrash Metal</label>
-            <label><input type="checkbox" class="genreCheckbox" value="Heavy Metal"> Heavy Metal</label>
-            <label><input type="checkbox" class="genreCheckbox" value="Groove Metal"> Groove Metal</label>
-            <label><input type="checkbox" class="genreCheckbox" value="Hard Rock"> Hard Rock</label>
-            <label><input type="checkbox" class="genreCheckbox" value="Rock nacional"> Rock nacional</label>
-            <label><input type="checkbox" class="genreCheckbox" value="Death Metal"> Death Metal</label>
-        </div>
+        <select id="filtro-genero">
+            <option value="todos">Todos os Gêneros</option>
+            <option value="thrashMetal">Thrash Metal</option>
+            <option value="rockNacional">Rock Nacional</option>
+            <option value="heavyMetal">Heavy Metal</option>
+            <option value="deathMetal">Death Metal</option>
+            <option value="grooveMetal">Groove Metal</option>
+            <option value="hardRock">Hard Rock</option>
+        </select>
+        
     </div>
     <section id="catalogo">
-        <div class="centralizar">
+        <div id="centralizar">
             <div class="cards1">
-                <div id="card1"></div>
-                <div id="card2"></div>
-                <div id="card3"></div>
-                <div id="card4"></div>
-                <div id="card5"></div>
+                <div id="card1" class="card"></div>
+                <div id="card2" class="card"></div>
+                <div id="card3" class="card"></div>
+                <div id="card4" class="card"></div>
+                <div id="card5" class="card"></div>
             </div>
             <div class="cards2">
-                <div id="card6"></div>
-                <div id="card7"></div>
-                <div id="card8"></div>
-                <div id="card9"></div>
-                <div id="card10"></div>
+                <div id="card6" class="card"></div>
+                <div id="card7" class="card"></div>
+                <div id="card8" class="card"></div>
+                <div id="card9" class="card"></div>
+                <div id="card10" class="card"></div>
             </div>
             <div class="cards3">
-                <div id="card11"></div>
-                <div id="card12"></div>
-                <div id="card13"></div>
-                <div id="card14"></div>
-                <div id="card15"></div>
+                <div id="card11" class="card"></div>
+                <div id="card12" class="card"></div>
+                <div id="card13" class="card"></div>
+                <div id="card14" class="card"></div>
+                <div id="card15" class="card"></div>
             </div>
             <div class="cards4">
-                <div id="card16"></div>
-                <div id="card17"></div>
-                <div id="card18"></div>
-                <div id="card19"></div>
-                <div id="card20"></div>
+                <div id="card16" class="card"></div>
+                <div id="card17" class="card"></div>
+                <div id="card18" class="card"></div>
+                <div id="card19" class="card"></div>
+                <div id="card20" class="card"></div>
             </div>
         </div>
     </section>
