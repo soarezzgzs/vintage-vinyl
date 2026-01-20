@@ -116,6 +116,7 @@ html {
   scroll-behavior: smooth;
   font-family: "Calibri" bold;
   overflow-x: hidden;
+
 }
 
 .imagemHome {
@@ -163,9 +164,9 @@ html {
   margin-top: 5rem;
   text-decoration: none;
   color: white;
-  background-color: rgb(184, 106, 3);
+  background-color: #edb721;
   width: fit-content;
-  padding: 15px;
+  padding: 20px;
 }
 
 .tituloHome2 {
@@ -332,8 +333,10 @@ html {
 
 #solicitar {
   width: 100%;
-  height: 35rem;
+  height: 42rem;
   background-color: var(--cor-fundo2);
+  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .centralizar {
@@ -342,9 +345,14 @@ html {
   color: white;
 }
 
+.centralizar h1{
+  padding-top: 30px;
+}
+
 .centralizar h1,
 .centralizar p {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  color: var(--cor-texto);
 }
 
 .centralizar a {
