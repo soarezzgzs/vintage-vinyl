@@ -293,7 +293,11 @@ html {
   border: 1px solid black;
   background-color: var(--cor-fundo2);
   color: white;
-
+  
+}
+.rockClassico:hover i,
+.rockClassico:hover p{
+  color: var(--cor-destaque);
 }
 
 .rockClassico i {
@@ -310,6 +314,11 @@ html {
 
 }
 
+.metal:hover i,
+.metal:hover p{
+  color: var(--cor-destaque);
+}
+
 .metal i {
   margin-top: 3rem;
 }
@@ -321,6 +330,11 @@ html {
   border: 1px solid black;
   background-color: var(--cor-fundo2);
   color: white;
+}
+
+.heavyMetal:hover i,
+.heavyMetal:hover p{
+  color: var(--cor-destaque);
 }
 
 .heavyMetal i {

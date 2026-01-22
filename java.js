@@ -1,102 +1,141 @@
 // Cards da section discosDestaque
 
-let cardMetallica = {
-    image: "assets/masterOfPuppets.jfif",
+const produtos = {
+    1: {
+    image: "../assets/masterOfPuppets.jfif",
     title: "Master of Puppets",
     artist: "Metallica",
     year: 1986,
     genre: "Thrash Metal",
-    price: 180.00
-};
-
-let cardInjustice = {
+    price: 180.00,
+    genre2: "Thrash Metal",
+    sobre: "Master of Puppets (1986) é um dos álbuns mais icônicos do metal e um marco absoluto na carreira do Metallica. Com riffs rápidos e agressivos, letras densas e estruturas complexas, o disco eleva o thrash metal a um novo nível. Faixas como “Battery”, “Master of Puppets” e “Welcome Home (Sanitarium)” equilibram peso e melodia de forma magistral. É um álbum intenso, técnico e emocional, considerado por muitos como uma obra-prima do gênero"
+  },
+  2: {
     image: "assets/Injustice.jfif",
     title: "Injustice For All",
     artist: "Metallica",
     year: 1986,
     genre: "Thrash Metal",
     price: 180.00
-};
-
-let cardFearOf = {
+  },
+  3:{
     image: "assets/FearOfTheDark.jfif",
     title: "Fear of the Dark",
     artist: "Iron Maiden",
     year: 1980,
     genre: "Heavy Metal",
     price: 150.00
-};
-
-let cardVulgarPower = {
+  },
+  4:{
     image: "assets/VulgarPower.jfif",
     title: "Vulgar Power",
     artist: "Pantera",
     year: 1992,
     genre: "Groove Metal",
     price: 120.00
-};
-
-
-let cardUseYourIlusion = {
+  },
+  5:{
     image: "assets/UseYourIlusion.jfif",
     title: "Use Your Ilusion",
     artist: "Guns N' Roses",
     year: 1991,
     genre: "Hard Rock",
     price: 160.00
+  },
+  6:{
+    image: "assets/QuatroEstacoes.jfif",
+    title: "Quatro Estações",
+    artist: "Legião Urbana",
+    year: 1989,
+    genre: "Rock nacional",
+    price: 180.00
+  },
+  7:{
+    image: "assets/AlivioImediato.jfif",
+    title: "Alívio Imediato",
+    artist: "Engenheiros do Hawaii",
+    year: 1989,
+    genre: "Rock nacional",
+    price: 180.00
+  },
+  8:{
+    image: "assets/EnvelhecoCidade.jfif",
+    title: "Envelheço Cidade",
+    artist: "Ira!",
+    year: 1986,
+    genre: "Rock nacional",
+    price: 180.00
+  },
+  9:{
+    image: "assets/Cardume.jfif",
+    title: "Cardume",
+    artist: "Nenhum de Nós",
+    year: 1989,
+    genre: "Rock nacional",
+    price: 180.00
+  },
+  10:{
+    image: "assets/CamisaVenus.jfif",
+    title: "Camisa Vênus",
+    artist: "Camisa de Vênus",
+    year: 1986,
+    genre: "Rock nacional",
+    price: 180.00
+  }
 };
 
 document.getElementById("card1").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardMetallica.image}')"><div class="card-image-span"><span>${cardMetallica.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[1].image}')"><div class="card-image-span"><span>${produtos[1].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardMetallica.title}</h3>
-            <p>${cardMetallica.artist}</p>
-            <p class="preco"><strong>R$ ${cardMetallica.price.toFixed(2)}</strong></p>
+            <h3>${produtos[1].title}</h3>
+            <p>${produtos[1].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[1].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
 
 document.getElementById("card2").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardInjustice.image}')"><div class="card-image-span"><span>${cardInjustice.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[2].image}')"><div class="card-image-span"><span>${produtos[2].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardInjustice.title}</h3>
-            <p>${cardInjustice.artist}</p>
-            <p class="preco"><strong>R$ ${cardInjustice.price.toFixed(2)}</strong></p>
+            <h3>${produtos[2].title}</h3>
+            <p>${produtos[2].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[2].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
 
 document.getElementById("card3").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardFearOf.image}')"><div class="card-image-span"><span>${cardFearOf.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[3].image}')"><div class="card-image-span"><span>${produtos[3].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardFearOf.title}</h3>
-            <p>${cardFearOf.artist}</p>
-            <p class="preco"><strong>R$ ${cardFearOf.price.toFixed(2)}</strong></p>
+            <h3>${produtos[3].title}</h3>
+            <p>${produtos[3].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[3].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
 
 document.getElementById("card4").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardVulgarPower.image}')"><div class="card-image-span"><span>${cardVulgarPower.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[4].image}')"><div class="card-image-span"><span>${produtos[4].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardVulgarPower.title}</h3>
-            <p>${cardVulgarPower.artist}</p>
-            <p class="preco"><strong>R$ ${cardVulgarPower.price.toFixed(2)}</strong></p>
+            <h3>${produtos[4].title}</h3>
+            <p>${produtos[4].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[4].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
 
 document.getElementById("card5").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardUseYourIlusion.image}')"><div class="card-image-span"><span>${cardUseYourIlusion.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[5].image}')"><div class="card-image-span"><span>${produtos[5].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardUseYourIlusion.title}</h3>
-            <p>${cardUseYourIlusion.artist}</p>
-            <p class="preco"><strong>R$ ${cardUseYourIlusion.price.toFixed(2)}</strong></p>
+            <h3>${produtos[5].title}</h3>
+            <p>${produtos[5].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[5].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
@@ -105,70 +144,24 @@ document.getElementById("card5").innerHTML = `
 
 // Cards da section Novidades
 
-let cardQuatroEstacoes= {
-    image: "assets/QuatroEstacoes.jfif",
-    title: "Quatro Estações",
-    artist: "Legião Urbana",
-    year: 1989,
-    genre: "Rock nacional",
-    price: 180.00
-};
-
-let cardAlivioImediato = {
-    image: "assets/AlivioImediato.jfif",
-    title: "Alívio Imediato",
-    artist: "Engenheiros do Hawaii",
-    year: 1989,
-    genre: "Rock nacional",
-    price: 180.00
-};
-
-let cardEnvelhecoCidade = {
-    image: "assets/EnvelhecoCidade.jfif",
-    title: "Envelheço Cidade",
-    artist: "Ira!",
-    year: 1986,
-    genre: "Rock nacional",
-    price: 180.00
-};
-
-
-let cardCardume = {
-    image: "assets/Cardume.jfif",
-    title: "Cardume",
-    artist: "Nenhum de Nós",
-    year: 1989,
-    genre: "Rock nacional",
-    price: 180.00
-};
-
-let cardCamisaVenus = {
-    image: "assets/CamisaVenus.jfif",
-    title: "Camisa Vênus",
-    artist: "Camisa de Vênus",
-    year: 1986,
-    genre: "Rock nacional",
-    price: 180.00
-};
-
 document.getElementById("card6").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardQuatroEstacoes.image}')"><div class="card-image-span"><span>${cardQuatroEstacoes.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[6].image}')"><div class="card-image-span"><span>${produtos[6].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardQuatroEstacoes.title}</h3>
-            <p>${cardQuatroEstacoes.artist}</p>
-            <p class="preco"><strong>R$ ${cardQuatroEstacoes.price.toFixed(2)}</strong></p>
+            <h3>${produtos[6].title}</h3>
+            <p>${produtos[6].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[6].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
 
 document.getElementById("card7").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardAlivioImediato.image}')"><div class="card-image-span"><span>${cardAlivioImediato.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[7].image}')"><div class="card-image-span"><span>${produtos[7].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardAlivioImediato.title}</h3>
-            <p>${cardAlivioImediato.artist}</p>
-            <p class="preco"><strong>R$ ${cardAlivioImediato.price.toFixed(2)}</strong></p>
+            <h3>${produtos[7].title}</h3>
+            <p>${produtos[7].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[7].price.toFixed(2)}</strong></p>
 
         </div>
     </div>
@@ -176,11 +169,11 @@ document.getElementById("card7").innerHTML = `
 
 document.getElementById("card8").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardEnvelhecoCidade.image}')"><div class="card-image-span"><span>${cardEnvelhecoCidade.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[8].image}')"><div class="card-image-span"><span>${produtos[8].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardEnvelhecoCidade.title}</h3>
-            <p>${cardEnvelhecoCidade.artist}</p>
-            <p class="preco"><strong>R$ ${cardEnvelhecoCidade.price.toFixed(2)}</strong></p>
+            <h3>${produtos[8].title}</h3>
+            <p>${produtos[8].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[8].price.toFixed(2)}</strong></p>
 
         </div>
     </div>
@@ -188,22 +181,34 @@ document.getElementById("card8").innerHTML = `
 
 document.getElementById("card9").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardCardume.image}')"><div class="card-image-span"><span>${cardCardume.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[9].image}')"><div class="card-image-span"><span>${produtos[9].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardCardume.title}</h3>
-            <p>${cardCardume.artist}</p>
-            <p class="preco"><strong>R$ ${cardCardume.price.toFixed(2)}</strong></p>
+            <h3>${produtos[9].title}</h3>
+            <p>${produtos[9].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[9].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
 
 document.getElementById("card10").innerHTML = `
     <div class="card">
-        <div class="card-image" style="background-image: url('${cardCamisaVenus.image}')"><div class="card-image-span"><span>${cardCamisaVenus.genre}</span></div></div>
+        <div class="card-image" style="background-image: url('${produtos[10].image}')"><div class="card-image-span"><span>${produtos[10].genre}</span></div></div>
         <div class="card-info">
-            <h3>${cardCamisaVenus.title}</h3>
-            <p>${cardCamisaVenus.artist}</p>
-            <p class="preco"><strong>R$ ${cardCamisaVenus.price.toFixed(2)}</strong></p>
+            <h3>${produtos[10].title}</h3>
+            <p>${produtos[10].artist}</p>
+            <p class="preco"><strong>R$ ${produtos[10].price.toFixed(2)}</strong></p>
         </div>
     </div>
 `;
+
+function rockClassico(){
+    window.location.href = "./catalogo/catalogo.html"
+}
+
+function metal(){
+    window.location.href = "./catalogo/catalogo.html"
+}
+
+function heavyMetal(){
+    window.location.href = "./catalogo/catalogo.html"
+}

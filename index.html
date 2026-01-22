@@ -7,25 +7,25 @@
     <title>Vintage Vinyl</title>
     <link rel="stylesheet" href="style.css">
 </head>
- <header>
-        <nav>
-            <ul>
-                <div class="divSuprema">
-                    <div class="esquerda">                      
-                        <p id="cr"><a href="#"></a>Vintage Vinyl</p>
-                        <br>
-                        <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
-                    </div>
-                    <div class="direita">  
-                        <li><a id="parteDireita" href="./index.html">Inicio</a></li>
-                        <li><a id="parteDireita" href="./catalogo/catalogo.html">Catálogo</a></li>
-                        <li><a id="parteDireita" href="./novidades/novidades.html">Novidades</a></li>
-                    </div>  
-                </div>
-                </ul>
-        </nav>
-    </header>
 <body>
+    <header>
+           <nav>
+               <ul>
+                   <div class="divSuprema">
+                       <div class="esquerda">                      
+                           <p id="cr"><a href="#"></a>Vintage Vinyl</p>
+                           <br>
+                           <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
+                       </div>
+                       <div class="direita">  
+                           <li><a id="parteDireita" href="./index.html">Inicio</a></li>
+                           <li><a id="parteDireita" href="./catalogo/catalogo.html">Catálogo</a></li>
+                           <li><a id="parteDireita" href="./novidades/novidades.html">Novidades</a></li>
+                       </div>  
+                   </div>
+                   </ul>
+           </nav>
+       </header>
     <div class="containerHome">
         <img class="imagemHome">
         <div class="tituloHome">
@@ -42,11 +42,11 @@
                     <a href="#catalogo">Ver todos ></a>
             </div>
             <div class="cards">
-                <div id="card1"></div>
-                <div id="card2"></div>
-                <div id="card3"></div>
-                <div id="card4"></div>
-                <div id="card5"></div>
+                <a href="produtos/produto.html?id=1" id="card1"></a>
+                <a href="produtos/produto.html?id=2" id="card2"></a>
+                <a href="produtos/produto.html?id=3" id="card3"></a>
+                <a href="produtos/produto.html?id=4" id="card4"></a>
+                <a href="produtos/produto.html?id=5" id="card5"></a>
             </div>
         </div>
     </div>
@@ -57,15 +57,15 @@
                     <p class="explorePorGenero" style="color: white">Explore por Gênero</p>
                 </div>
                 <div class="generos">
-                    <div class="rockClassico">
+                    <div class="rockClassico" onclick="rockClassico()">
                     <i class="fa-solid fa-music"></i>
-                    <p>Rock Clássico</p>
+                    <p>Rock Nacional</p>
                 </div>
-            <div class="metal">
+            <div class="metal" onclick="metal()">
                 <i class="fa-solid fa-music"></i>
                 <p>Metal</p>
             </div>
-            <div class="heavyMetal">
+            <div class="heavyMetal" onclick="heavyMetal()">
                 <i class="fa-solid fa-music"></i>
                 <p>Heavy Metal</p>
             </div>
@@ -80,11 +80,11 @@
                 <a href="#catalogo">Ver todos ></a>
             </div>
             <div class="cards">
-                <div id="card6"></div>
-                <div id="card7"></div>
-                <div id="card8"></div>
-                <div id="card9"></div>
-                <div id="card10"></div>
+                <a href="produtos/produto.html?id=6" id="card6"></a>
+                <a href="produtos/produto.html?id=7" id="card7"></a>
+                <a href="produtos/produto.html?id=8" id="card8"></a>
+                <a href="produtos/produto.html?id=9" id="card9"></a>
+                <a href="produtos/produto.html?id=10" id="card10"></a>
             </div>
         </div>
     </div>
@@ -105,32 +105,11 @@
         </div>
         <div class="linksRapidos">
             <li id="contabilidade2">Links Rápidos</li>
-            <a href="#home">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#contato">Contato</a>
+            <a href="./index.html">Inicio</a>
+            <a href="./catalogo/catalogo.html">Catálogo</a>
+            <a href="./novidades/novidades.html">Novidades</a>
         </div>
-        <div class="contatos">
-            <li id="contabilidade2">Contatos</li>
-            <div class="subDireita2">
-                        <i id="telephone2" class="fa-solid fa-phone"></i>
-                        <div class="titulos3">
-                            <p>Telefone: (35) 98443-1748</p>
-                        </div>
-                    </div>
-                    <div class="subDireita2">
-                        <i id="telephone2" class="fa-solid fa-envelope"></i>
-                        <div class="titulos3">
-                            <p>E-mail: camilaribeiro183@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="subDireita2">
-                        <i id="telephone2" class="fa-solid fa-location-dot"></i>
-                        <div class="titulos3">
-                            <p>Atendimento: 100% online - Atendemos todo o Brasil.</p>
-                        </div>
-                    </div>
-        </div>
+        
         <div class="redesSociais">
             <li id="contabilidade2">Redes Sociais</li>
             <div>
@@ -141,7 +120,7 @@
         </div>
     </div>
     <div class="direitosReservados">
-        <p>© 2026 CR Contabilidade. Todos os direitos reservados.</p>
+        <p>© 2026 Vintage Vinyl. Todos os direitos reservados.</p>
     </div>
         </div>
 

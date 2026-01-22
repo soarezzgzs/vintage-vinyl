@@ -270,7 +270,6 @@ ul {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background-color: var(--cor-fundo2);
   display: inline-block;
-  margin: 10px;
 }
 
 .card:hover {
@@ -286,7 +285,7 @@ ul {
 }
 
 .card-image-span {
-  display: flex;
+  display: none;
   justify-content: end;
 }
 
