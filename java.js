@@ -2,7 +2,7 @@
 
 const produtos = {
     1: {
-    image: "../assets/masterOfPuppets.jfif",
+    image: "assets/masterOfPuppets.jfif",
     title: "Master of Puppets",
     artist: "Metallica",
     year: 1986,
