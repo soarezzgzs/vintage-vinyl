@@ -11,7 +11,7 @@ const produtos = {
   },
   2: {
     image: "../assets/Injustice.jfif",
-    title: "And Justuce fir All",
+    title: "And Justuce for All",
     artist: "Metallica",
     year: 1988,
     genre: "thrashMetal",
@@ -105,15 +105,19 @@ const produtos = {
     artist: "Metallica",
     year: 1991,
     genre: "thrashMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Thrash Metal",
+    sobre: "O Black Album do Metallica, lançado em 1991, marcou uma virada na banda ao trazer um som mais acessível, pesado e refinado, com produção de Bob Rock. Com clássicos como “Enter Sandman”, “The Unforgiven” e “Nothing Else Matters”, o disco consolidou o Metallica como uma das maiores bandas de rock do mundo."
   },
   12:{
     image: "../assets/RideTheLight.jfif",
     title: "Ride The Lightning",
-    artist: "Metallica",
+    artist: "Metallica Black Album ",
     year: 1991,
     genre: "thrashMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Thrash Metal",
+    sobre: "Ride the Lightning, lançado em 1984, é o segundo álbum do Metallica e um marco do thrash metal. Mais rápido e técnico que o debut, o disco mostra a banda expandindo sua criatividade com faixas icônicas como “Fade to Black”, “Creeping Death” e “For Whom the Bell Tolls”, ajudando a definir o som do metal dos anos 80."
   },
   13:{
     image: "../assets/Legion.jfif",
@@ -121,7 +125,9 @@ const produtos = {
     artist: "Deicide",
     year: 1991,
     genre: "deathMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Death Metal",
+    sobre: "Legion, lançado em 1992, é o segundo álbum do Deicide e um dos mais brutais do death metal. Com riffs caóticos, vocais demoníacos e bateria intensa, o disco elevou a agressividade da banda em faixas como “Dead But Dreaming” e “Satan Spawn, the Caco-Daemon”, consolidando o Deicide como um nome extremo e controverso do gênero."
   },
   14:{
     image: "../assets/Deicide.jfif",
@@ -129,7 +135,9 @@ const produtos = {
     artist: "Deicide",
     year: 1991,
     genre: "deathMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Death Metal",
+    sobre: "Deicide, lançado em 1990, é o álbum de estreia da banda homônima e um clássico do death metal. Extremamente agressivo e direto, o disco se destaca pelos riffs rápidos, bateria violenta e letras blasfemas, com faixas como “Sacrificial Suicide” e “Dead by Dawn”, estabelecendo o Deicide como uma das bandas mais extremas do gênero."
   },
   15:{
     image: "../assets/IronMaiden.jfif",
@@ -137,7 +145,9 @@ const produtos = {
     artist: "Iron Maiden",
     year: 1991,
     genre: "heavyMetal",
-    price: 160.00
+    price: 160.00,
+    gerne2: "Heavy Metal",
+    sobre: "Iron Maiden, lançado em 1980, é o álbum de estreia da banda britânica e um marco da New Wave of British Heavy Metal. Com um som cru e energético, o disco traz clássicos como “Running Free”, “Phantom of the Opera” e “Iron Maiden”, apresentando ao mundo a identidade e a força da banda."
   },
   16:{
     image: "../assets/Killers.jfif",
@@ -145,39 +155,49 @@ const produtos = {
     artist: "Iron Maiden",
     year: 1991,
     genre: "heavyMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Heavy Metal",
+    sobre: "Killers, lançado em 1981, é o segundo álbum do Iron Maiden e aprofunda o som agressivo e veloz da banda. Com a voz de Paul Di’Anno e produção de Martin Birch, o disco traz faixas marcantes como “Wrathchild”, “Murders in the Rue Morgue” e “Killers”, sendo um clássico da NWOBHM"
   },
   17:{
     image: "../assets/FarBeyond.jfif",
-    title: "FarBeyond",
+    title: "Far Beyond Driven",
     artist: "Pantera",
     year: 1991,
     genre: "thrashMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Trash Metal",
+    sobre: "Far Beyond Driven, lançado em 1994, é o sétimo álbum do Pantera e um dos ápices do groove metal. Extremamente pesado e agressivo, o disco traz riffs cortantes e atitude brutal em faixas como “I’m Broken”, “5 Minutes Alone” e “Becoming”, estreando em 1º lugar na Billboard e consolidando a força do Pantera nos anos 90."
   },
   18:{
     image: "../assets/BlackOfSouls.jfif",
-    title: "BlackOfSouls",
+    title: "Souls Of Black",
     artist: "Testament",
     year: 1991,
     genre: "thrashMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Trash Metal",
+    sobre: "Souls of Black, lançado em 1990, é o quarto álbum do Testament e mantém a banda firme no thrash metal agressivo. Com riffs rápidos, vocais intensos de Chuck Billy e clima mais sombrio, o disco traz faixas como “Souls of Black”, “Face in the Sky” e “Seven Days of May”, sendo um clássico da fase inicial da banda."
   },
   19:{
     image: "../assets/Obituary.jfif",
-    title: "Obituary Slowly we rot",
+    title: "Obituary Slowly We Rot",
     artist: "Obituary",
     year: 1991,
     genre: "deathMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Death Metal",
+    sobre: "Slowly We Rot, lançado em 1989, é o álbum de estreia do Obituary e um dos pilares do death metal. Com riffs arrastados, clima sombrio e os vocais guturais inconfundíveis de John Tardy, o disco traz clássicos como “Slowly We Rot” e “Internal Bleeding”, ajudando a definir o som pesado e sufocante do gênero."
   },
   20:{
     image: "../assets/EndComplete.jfif",
-    title: "EndComplete",
+    title: "The End Complete",
     artist: "Obituary",
     year: 1991,
     genre: "deathMetal",
-    price: 160.00
+    price: 160.00,
+    genre2: "Death Metal",
+    sobre: "The End Complete, lançado em 1992, é o terceiro álbum do Obituary e um dos mais importantes do death metal. Com riffs pesados e cadenciados, atmosfera sombria e os vocais marcantes de John Tardy, o disco traz faixas clássicas como “The End Complete”, “Back to One” e “Arise”, consolidando o Obituary como um dos gigantes do gênero."
   }
 };
 
