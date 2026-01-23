@@ -157,11 +157,11 @@ html {
       rgba(20, 20, 20, 0.5) 50%,
       rgba(20, 20, 20, 1) 100%
     ),
-    url(./assets/photo-1631692364644-d6558eab0915.jfif) no-repeat center;
+    url(./assets/background.png) no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;
-  height: 40rem;
+  height: 50rem;
 }
 
 .tituloHome h1 {
@@ -620,6 +620,7 @@ html {
   .linksRapidos {
     margin-top: 0;
   }
+
 }
 
 
@@ -642,4 +643,6 @@ html {
   .generos {
     gap: 1rem;
   }
+
+
 }
