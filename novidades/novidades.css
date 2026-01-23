@@ -354,7 +354,6 @@ ul {
   color: white;
   display: block;
   align-items: center;
-  padding-left: 8rem;
 }
 .container h2{
   padding-top: 5rem;
@@ -365,7 +364,6 @@ ul {
 .container p{
   padding-left: 2rem;
   padding-bottom: 1rem;
-  margin-right: 60rem;
 }
 .container p{
   padding-bottom: 4rem;
@@ -399,7 +397,7 @@ ul {
 
 #catalogo {
   background-color: var(--cor-fundo1);
-  height: 70rem;
+  height: 65rem;
 }
 
 .aviso{
@@ -467,5 +465,133 @@ ul {
   font-style: bold;
   z-index: 10000;
   font-size: 10pt;
+}
+
+/* ================= MOBILE ================= */
+/* ===============================
+   MOBILE FIX ABSOLUTO (FINAL)
+   =============================== */
+@media (max-width: 768px) {
+
+  /* RESET */
+  * {
+    max-width: 100%;
+  }
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ===== HEADER ===== */
+  header {
+    position: relative;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .divSuprema {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .direita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  /* ===== TEXTO TOPO ===== */
+  .container {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .container h2,
+  .container p {
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+
+  /* ===== CATÁLOGO ===== */
+  #catalogo {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .cards1,
+  .cards2,
+  .cards3,
+  .cards4 {
+    display: grid;
+    grid-template-columns: repeat(1, 220px); /* 2 cards por linha */
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  /* ===== CARD ===== */
+  .card {
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  /* imagem com proporção correta */
+  .card-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;   /* 🔥 resolve 90% do bug */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-info {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .card-info h3 {
+    font-size: 14px;
+  }
+
+  .card-info p {
+    font-size: 12px;
+  }
+
+  /* ===== AVISO ===== */
+  .aviso {
+    padding: 1.5rem;
+
+  }
+
+  .aviso a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  /* ===== FOOTER ===== */
+  #solicitar {
+    height: auto;
+    padding: 2rem 1rem;
+    border: 1px solid red;
+    
+  }
+
+  .centralizar2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .linksRapidos a {
+    justify-content: center;
+  }
+
+  .redesSociais div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
 }
 

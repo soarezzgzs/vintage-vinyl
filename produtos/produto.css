@@ -266,3 +266,121 @@ html {
   font-size: 10pt;
 }
 
+.voltarCat {
+  margin-bottom: 10px;
+  color: var(--cor-destaque);
+  position: sticky;
+    top: 0;
+    background: #111;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    z-index: 999;
+    border-bottom: 1px solid #222;
+}
+
+/* ==================================
+   PRODUTO — MOBILE (FINAL)
+   ================================== */
+@media (max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    display: block;
+  }
+
+  /* ===== HEADER ===== */
+  header {
+    position: relative;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .divSuprema {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .direita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* ===== CONTAINER ===== */
+  .container {
+    flex-direction: column;
+    gap: 1.5rem;
+    height: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* ===== IMAGEM ===== */
+  .imgProduto {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .imgProduto img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  /* ===== INFO ===== */
+  .infoLado {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+    padding: 15px;
+  }
+
+  #nome {
+    font-size: 20px;
+  }
+
+  #descricao {
+    font-size: 14px;
+  }
+
+  /* ===== PREÇO ===== */
+  .preco p:nth-child(2) {
+    font-size: 24px;
+  }
+
+  /* ===== BOTÕES ===== */
+  .comprar a {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  /* ===== SOBRE ===== */
+  .sobre p:nth-child(1) {
+    font-size: 16px;
+  }
+
+  #sobre {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .voltarCat {
+    position: sticky;
+    top: 0;
+    background: #111;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    z-index: 999;
+    border-bottom: 1px solid #222;
+  }
+
+}
+
