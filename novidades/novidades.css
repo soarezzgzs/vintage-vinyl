@@ -99,7 +99,8 @@ li {
 }
 
 .divSuprema {
-  width: 100rem;
+  max-width: 100rem;
+  width: 100%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -146,7 +147,8 @@ ul {
 
 .esquerda2 {
   padding: 30px;
-  width: 390px;
+  max-width: 390px;
+  width: 100%;
 }
 
 #cr2 {
@@ -262,6 +264,7 @@ ul {
 }
 
 .card {
+  max-width: 220px;
   width: 220px;
   overflow: hidden; /* corta a imagem no limite do card */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -318,7 +321,8 @@ ul {
 }
 
 .rockClassico {
-  width: 15rem;
+  max-width: 15rem;
+  width: 100%;
   height: 9rem;
   text-align: center;
   border: 1px solid black;
@@ -379,7 +383,8 @@ ul {
 }
 
 #filtroArtista {
-  width: 60rem;
+  max-width: 60rem;
+  width: 100%;
   padding: 10px;
   margin: auto;  
   border: 1px solid black;
@@ -400,7 +405,8 @@ ul {
 .aviso{
   background-color: var(--cor-fundo2);
   padding: 50px;
-  width: 77rem;
+  max-width: 77rem;
+  width: 100%;
   margin: 20px auto;
 }
 .aviso h2{
