@@ -157,12 +157,17 @@ html {
       rgba(20, 20, 20, 0.5) 50%,
       rgba(20, 20, 20, 1) 100%
     ),
-    url(./assets/background.png) no-repeat center;
+    url(./assets/Designer\ \(1\).png) no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   height: 50rem;
-  padding-top: 10rem;
+
+  & img {
+    background-position: top center;
+    background-size: cover;
+  }
+
 }
 
 .tituloHome h1 {
