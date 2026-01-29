@@ -207,6 +207,13 @@ document.getElementById("card10").innerHTML = `
         </div>
     </div>
 `;
+// Mensagem pro zap
+
+document.getElementById('btnWhatsapp').addEventListener('click', function() {
+    const numero = "5535984518736";
+    const mensagem = "Olá, vim pelo site e quero ficar por dentro das novidades!";
+    window.location.href = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+});
 
 // Array de todos os discos
 let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardAlivioImediato, cardEnvelhecoCidade, cardCardume, cardCamisaVenus];
@@ -250,19 +257,4 @@ document.getElementById("filtroArtista").addEventListener("input", filtrarDiscos
 // Função show() para compatibilidade com o botão existente
 function show() {
     filtrarDiscos();
-}
-
-// Mensagem pro zap
-
-function mensagem {
-   
-    document.getElementById("contatoForm").addEventListener("submit", function(e) {
-        e.preventDefault();
-        
-        const numero = "5535984518736";
-        const texto = `Olá, quero ficar por dentro das Novidades da loja.`;
-        const link = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
-        
-        window.open(link, "_blank");
-    });
 }
