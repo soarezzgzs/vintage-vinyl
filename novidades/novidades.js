@@ -207,13 +207,13 @@ document.getElementById("card10").innerHTML = `
         </div>
     </div>
 `;
-// Mensagem pro zap
+// // Mensagem pro zap
 
-document.getElementById('btnWhatsapp').addEventListener('click', function() {
-    const numero = "5535984518736";
-    const mensagem = "Olá, vim pelo site e quero ficar por dentro das novidades!";
-    window.location.href = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
-});
+// document.getElementById('btnWhatsapp').addEventListener('click', function() {
+//     const numero = "5535984518736";
+//     const mensagem = "Olá, vim pelo site e quero ficar por dentro das novidades!";
+//     window.location.href = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+// });
 
 // Array de todos os discos
 let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardAlivioImediato, cardEnvelhecoCidade, cardCardume, cardCamisaVenus];
