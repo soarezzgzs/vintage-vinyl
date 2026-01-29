@@ -157,13 +157,15 @@ html {
       rgba(20, 20, 20, 0.5) 50%,
       rgba(20, 20, 20, 1) 100%
     ),
-    url(assets/background.png) no-repeat center;
+    url(assets/background.png);
     background-size: 1100px;
   display: flex;
   justify-content: center;
   height: 50rem;
-  background-color: #141414;
-
+  background-color: #0b0b0b;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .tituloHome h1 {
