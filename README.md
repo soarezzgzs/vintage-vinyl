@@ -13,7 +13,7 @@ Acesse o site publicado no Netlify:
 
 ## 🖼 Prints do Site
 
-<img width="1902" height="937" alt="{7C1C56DE-1217-4C96-8732-FC89ADF3B6F1}" src="https://github.com/user-attachments/assets/a35ce535-c284-4096-844a-373e7302afe6" />
+<img width="1903" height="934" alt="{99D87683-8258-41B2-94B1-DDCC597C9284}" src="https://github.com/user-attachments/assets/34e4059b-a875-42c9-80cc-08b4f38b526a" />
 _______________________________________________________________________________________________________________________________________________________
 <img width="882" height="945" alt="{8F41BBF6-83E4-4EF5-B350-2ABDF0F77DC6}" src="https://github.com/user-attachments/assets/369459d1-a661-4b23-b18d-df7a6512dbbb" />
 _______________________________________________________________________________________________________________________________________________________
