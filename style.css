@@ -162,6 +162,7 @@ html {
   display: flex;
   justify-content: center;
   height: 50rem;
+  padding-top: 10rem;
 }
 
 .tituloHome h1 {
