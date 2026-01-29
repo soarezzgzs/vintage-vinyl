@@ -251,3 +251,18 @@ document.getElementById("filtroArtista").addEventListener("input", filtrarDiscos
 function show() {
     filtrarDiscos();
 }
+
+// Mensagem pro zap
+
+function mensagem {
+   
+    document.getElementById("contatoForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        
+        const numero = "5535984518736";
+        const texto = `Olá, quero ficar por dentro das Novidades da loja.`;
+        const link = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
+        
+        window.open(link, "_blank");
+    });
+}

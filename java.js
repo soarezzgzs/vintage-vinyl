@@ -212,3 +212,4 @@ function metal(){
 function heavyMetal(){
     window.location.href = "./catalogo/catalogo.html"
 }
+
