@@ -558,8 +558,9 @@ html {
 
   /* HOME */
   .containerHome {
-    height: auto;
+    height: 5rem;
     padding: 10rem 1rem;
+    margin-top: 9rem;
   }
 
   .tituloHome h1 {
@@ -633,6 +634,10 @@ html {
   .divSuprema {
     width: 100%;
     gap: 5rem;
+  }
+
+  .containerHome {
+    margin-top: 1rem;
   }
 
   .cards {
