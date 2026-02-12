@@ -267,6 +267,10 @@ ul {
   text-decoration: none;
   color: inherit;
   transition: transform 0.3s ease;
+  position: relative;
+
+  z-index: 1;
+
 }
 
 .vinius {
@@ -300,15 +304,21 @@ ul {
   height: 250px; /* controla até onde a imagem vai */
   background-size: cover;
   background-position: center;
+    z-index: 1;
+
 }
 
 .card-image-span {
   display: none;
   justify-content: end;
+    z-index: 1;
+
 }
 
 .preco {
   color: var(--cor-destaque);
+    z-index: 1;
+
 }
 
 /* Parte branca */
@@ -317,6 +327,7 @@ ul {
   background-color: var(--cor-fundo2);
   color: var(--cor-texto);
   text-align: start;
+  z-index: 1;
 
 }
 
@@ -324,11 +335,15 @@ ul {
   margin: 0;
   font-size: 16px;
   color: var(--cor-texto);
+    z-index: 1;
+
 }
 
 .card-info p {
   margin: 4px 0;
   font-size: 14px;
+    z-index: 1;
+
 }
 
 .generos {
