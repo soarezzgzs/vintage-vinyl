@@ -442,19 +442,23 @@ const contador = document.getElementById("contador");
 function renderCards(discos) {
   listaCards.innerHTML = "";
 
-  discos.forEach(disco => {
+discos.forEach(disco => {
     listaCards.innerHTML += `
-      <a href="../produtos/produto.html?id=${disco.id}" class="card">
-        <div class="card-image"
-             style="background-image:url('${disco.image}')">
-        </div>
-
-        <div class="card-info">
-          <h3>${disco.title}</h3>
-          <p>${disco.artist}</p>
-          <p class="preco">R$ ${disco.price.toFixed(2)}</p>
-        </div>
-      </a>
+    <div class="vinius">
+    <img class="vinil" src="../assets/vinyl_PNG102.png" alt="">
+    
+    <a href="../produtos/produto.html?id=${disco.id}" class="card">
+    <div class="card-image"
+    style="background-image:url('${disco.image}')">
+    </div>
+    
+    <div class="card-info">
+    <h3>${disco.title}</h3>
+    <p>${disco.artist}</p>
+    <p class="preco">R$ ${disco.price.toFixed(2)}</p>
+    </div>
+    </a>
+    </div>
     `;
   });
 
