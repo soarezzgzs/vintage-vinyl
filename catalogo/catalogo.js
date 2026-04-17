@@ -471,8 +471,6 @@ function renderCards(discos) {
 
 discos.forEach(disco => {
     listaCards.innerHTML += `
-    <div class="vinius">
-    <img class="vinil" src="../assets/vinyl_PNG102.png" alt="">
     
     <a href="../produtos/produto.html?id=${disco.id}" class="card">
     <div class="card-image"

@@ -42,11 +42,10 @@ body {
 }
 
 nav {
-  display: inline-block;
-  align-items: center;
   width: 100%;
-  z-index: 10000;
-  box-shadow: 1px 1px 40px var(--cor-fundo1);
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
 }
 
 li {
@@ -94,17 +93,29 @@ li {
 }
 
 #orcamento:hover {
-  background-color: var(--cor-destaque);
+  background-color: #50423a;
   z-index: 10000;
 }
 
 .divSuprema {
-  max-width: 100rem;
-  width: 100%;
-  display: inline-flex;
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 50rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.direita {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
 }
 
 ul {

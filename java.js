@@ -241,7 +241,7 @@ function heavyMetal() {
     window.location.href = "./catalogo/catalogo.html"
 }
 
-<<<<<<< HEAD
+
 // Hamburger menu toggle
 document.addEventListener('DOMContentLoaded', function () {
     const hamburger = document.getElementById('hamburger');
@@ -255,5 +255,4 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-=======
->>>>>>> 985c9f9b854288d077992e67681b0f7e322a2503
+

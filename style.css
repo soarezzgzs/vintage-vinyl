@@ -242,18 +242,15 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-<<<<<<< HEAD
   align-items: center;
   min-height: 70vh;
   padding: 2rem 1rem;
   text-align: center;
-=======
   height: 50rem;
   background-color: #0b0b0b;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
->>>>>>> 985c9f9b854288d077992e67681b0f7e322a2503
 }
 
 .tituloHome h1 {
