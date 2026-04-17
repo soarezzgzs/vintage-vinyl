@@ -1,88 +1,116 @@
+const menuIcon = document.getElementById('mobile-menu-icon');
+const menuList = document.getElementById('mobile-menu');
+
+// Verifica se os elementos existem antes de adicionar o evento
+if (menuIcon && menuList) {
+    menuIcon.addEventListener('click', function () {
+        menuList.classList.toggle('active');
+        const icon = menuIcon.querySelector('i');
+        if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        }
+    });
+}
+
+// Toggle icon for hamburger
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('hamburger');
+    if (hamburger) {
+        hamburger.addEventListener('click', function () {
+            const icon = hamburger.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+    }
+});
+
 // Cards da section discosDestaque
+
 
 const produtos = {
     1: {
-    image: "assets/masterOfPuppets.jfif",
-    title: "Master of Puppets",
-    artist: "Metallica",
-    year: 1986,
-    genre: "Thrash Metal",
-    price: 180.00,
-    genre2: "Thrash Metal",
-    sobre: "Master of Puppets (1986) é um dos álbuns mais icônicos do metal e um marco absoluto na carreira do Metallica. Com riffs rápidos e agressivos, letras densas e estruturas complexas, o disco eleva o thrash metal a um novo nível. Faixas como “Battery”, “Master of Puppets” e “Welcome Home (Sanitarium)” equilibram peso e melodia de forma magistral. É um álbum intenso, técnico e emocional, considerado por muitos como uma obra-prima do gênero"
-  },
-  2: {
-    image: "assets/Injustice.jfif",
-    title: "Injustice For All",
-    artist: "Metallica",
-    year: 1986,
-    genre: "Thrash Metal",
-    price: 180.00
-  },
-  3:{
-    image: "assets/FearOfTheDark.jfif",
-    title: "Fear of the Dark",
-    artist: "Iron Maiden",
-    year: 1980,
-    genre: "Heavy Metal",
-    price: 150.00
-  },
-  4:{
-    image: "assets/VulgarPower.jfif",
-    title: "Vulgar Power",
-    artist: "Pantera",
-    year: 1992,
-    genre: "Groove Metal",
-    price: 120.00
-  },
-  5:{
-    image: "assets/UseYourIlusion.jfif",
-    title: "Use Your Ilusion",
-    artist: "Guns N' Roses",
-    year: 1991,
-    genre: "Hard Rock",
-    price: 160.00
-  },
-  6:{
-    image: "assets/QuatroEstacoes.jfif",
-    title: "Quatro Estações",
-    artist: "Legião Urbana",
-    year: 1989,
-    genre: "Rock nacional",
-    price: 180.00
-  },
-  7:{
-    image: "assets/AlivioImediato.jfif",
-    title: "Alívio Imediato",
-    artist: "Engenheiros do Hawaii",
-    year: 1989,
-    genre: "Rock nacional",
-    price: 180.00
-  },
-  8:{
-    image: "assets/EnvelhecoCidade.jfif",
-    title: "Envelheço Cidade",
-    artist: "Ira!",
-    year: 1986,
-    genre: "Rock nacional",
-    price: 180.00
-  },
-  9:{
-    image: "assets/Cardume.jfif",
-    title: "Cardume",
-    artist: "Nenhum de Nós",
-    year: 1989,
-    genre: "Rock nacional",
-    price: 180.00
-  },
-  10:{
-    image: "assets/CamisaVenus.jfif",
-    title: "Camisa Vênus",
-    artist: "Camisa de Vênus",
-    year: 1986,
-    genre: "Rock nacional",
-    price: 180.00
-  }
+        image: "assets/masterOfPuppets.jfif",
+        title: "Master of Puppets",
+        artist: "Metallica",
+        year: 1986,
+        genre: "Thrash Metal",
+        price: 180.00,
+        genre2: "Thrash Metal",
+        sobre: "Master of Puppets (1986) é um dos álbuns mais icônicos do metal e um marco absoluto na carreira do Metallica. Com riffs rápidos e agressivos, letras densas e estruturas complexas, o disco eleva o thrash metal a um novo nível. Faixas como “Battery”, “Master of Puppets” e “Welcome Home (Sanitarium)” equilibram peso e melodia de forma magistral. É um álbum intenso, técnico e emocional, considerado por muitos como uma obra-prima do gênero"
+    },
+    2: {
+        image: "assets/Injustice.jfif",
+        title: "Injustice For All",
+        artist: "Metallica",
+        year: 1986,
+        genre: "Thrash Metal",
+        price: 180.00
+    },
+    3: {
+        image: "assets/FearOfTheDark.jfif",
+        title: "Fear of the Dark",
+        artist: "Iron Maiden",
+        year: 1980,
+        genre: "Heavy Metal",
+        price: 150.00
+    },
+    4: {
+        image: "assets/VulgarPower.jfif",
+        title: "Vulgar Power",
+        artist: "Pantera",
+        year: 1992,
+        genre: "Groove Metal",
+        price: 120.00
+    },
+    5: {
+        image: "assets/UseYourIlusion.jfif",
+        title: "Use Your Ilusion",
+        artist: "Guns N' Roses",
+        year: 1991,
+        genre: "Hard Rock",
+        price: 160.00
+    },
+    6: {
+        image: "assets/QuatroEstacoes.jfif",
+        title: "Quatro Estações",
+        artist: "Legião Urbana",
+        year: 1989,
+        genre: "Rock nacional",
+        price: 180.00
+    },
+    7: {
+        image: "assets/AlivioImediato.jfif",
+        title: "Alívio Imediato",
+        artist: "Engenheiros do Hawaii",
+        year: 1989,
+        genre: "Rock nacional",
+        price: 180.00
+    },
+    8: {
+        image: "assets/EnvelhecoCidade.jfif",
+        title: "Envelheço Cidade",
+        artist: "Ira!",
+        year: 1986,
+        genre: "Rock nacional",
+        price: 180.00
+    },
+    9: {
+        image: "assets/Cardume.jfif",
+        title: "Cardume",
+        artist: "Nenhum de Nós",
+        year: 1989,
+        genre: "Rock nacional",
+        price: 180.00
+    },
+    10: {
+        image: "assets/CamisaVenus.jfif",
+        title: "Camisa Vênus",
+        artist: "Camisa de Vênus",
+        year: 1986,
+        genre: "Rock nacional",
+        price: 180.00
+    }
 };
 
 document.getElementById("card1").innerHTML = `
@@ -201,14 +229,28 @@ document.getElementById("card10").innerHTML = `
     </div>
 `;
 
-function rockClassico(){
+function rockClassico() {
     window.location.href = "./catalogo/catalogo.html"
 }
 
-function metal(){
+function metal() {
     window.location.href = "./catalogo/catalogo.html"
 }
 
-function heavyMetal(){
+function heavyMetal() {
     window.location.href = "./catalogo/catalogo.html"
 }
+
+// Hamburger menu toggle
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+            hamburger.querySelector('i').classList.toggle('fa-bars');
+            hamburger.querySelector('i').classList.toggle('fa-times');
+        });
+    }
+});

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <title>Document</title>
     <link rel="stylesheet" href="produto.css">
 </head>
@@ -10,20 +12,40 @@
     <header>
            <nav>
                <ul>
-                   <div class="divSuprema">
-                       <div class="esquerda">                      
-                            <img class="imgCD" src="../assets/cd.png" alt="">
-                           <p id="cr"><a href="#"></a>Vintage Vinyl</p>
-                           <br>
-                           <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
-                       </div>
-                       <div class="direita">  
-                           <li><a id="parteDireita" href="../index.html">Inicio</a></li>
-                           <li><a id="parteDireita" href="../catalogo/catalogo.html">Catálogo</a></li>
-                           <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
-                       </div>  
-                   </div>
-                   </ul>
+                <div class="divSuprema desktop-only">
+                    <div class="esquerda">
+                        <img class="imgCD" src="assets/cd.png" alt="">
+                        <p id="cr"><a href="#"></a>Vintage Vinyl</p>
+                        <br>
+                        <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
+                    </div>
+                    <div class="direita" id="navLinks">
+                        <li><a id="parteDireita" href="../index.html">Inicio</a></li>
+                        <li><a id="parteDireita" href="../catalogo/catalogo.html">Catálogo</a></li>
+                        <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
+                    </div>
+                </div>
+                    <div class="mobile-only">
+                    <div class="mobile-header">
+                        <div class="mobile-logo">
+                        <img class="imgCD" src="../assets/cd.png" alt="">
+                        <p id="cr"><a href="#"></a>Vintage Vinyl</p>
+                        <br>
+                        </div>
+                        <div class="mobile-menu-icon" id="mobile-menu-icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="mobile-menu" id="mobile-menu">
+                        <ul>
+                        <li><a id="parteDireita" href="../index.html">Inicio</a></li>
+                        <li><a id="parteDireita" href="../catalogo/catalogo.html">Catálogo</a></li>
+                        <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </ul>
            </nav>
        </header>
        <main>

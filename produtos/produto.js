@@ -1,3 +1,31 @@
+const menuIcon = document.getElementById('mobile-menu-icon');
+const menuList = document.getElementById('mobile-menu');
+
+// Verifica se os elementos existem antes de adicionar o evento
+if (menuIcon && menuList) {
+    menuIcon.addEventListener('click', function () {
+        menuList.classList.toggle('active');
+        const icon = menuIcon.querySelector('i');
+        if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        }
+    });
+}
+
+
+// Toggle icon for hamburger
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('hamburger');
+    if (hamburger) {
+        hamburger.addEventListener('click', function () {
+            const icon = hamburger.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+    }
+});
+
 const produtos = {
   1: {
     image: "../assets/masterOfPuppets.jfif",
@@ -211,9 +239,7 @@ document.getElementById("descricao").innerText = produtos[id].artist;
 document.getElementById("preco").innerText = 'R$ ' + produtos[id].price + ',00';
 document.getElementById("sobre").innerText = produtos[id].sobre;
 
-console.log("URL:", window.location.search);
-console.log("ID:", id);
-console.log("Produto:", produtos[id]);
+document.title = "Produto - " + produtos[id].title;
 
 
 
