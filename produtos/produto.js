@@ -68,7 +68,7 @@ const produtos = {
     sobre: "Vulgar Display of Power (1992) é um dos álbuns mais pesados e influentes do metal dos anos 90. O Pantera entrega riffs agressivos, grooves marcantes e uma atitude crua, redefinindo o metal moderno. Faixas como “Walk”, “Mouth for War” e “This Love” combinam brutalidade e precisão, criando um som direto e impactante. É um disco visceral, cheio de energia e revolta, essencial para qualquer fã de metal."
   },
   5:{
-    image: "../assets/UseYourIlusion.jfif",
+    image: "../assets/UseYourIlusions2.jfif",
     title: "Use Your Ilusion",
     artist: "Guns N' Roses",
     year: 1991,
@@ -226,6 +226,96 @@ const produtos = {
     price: 160.00,
     genre2: "Death Metal",
     sobre: "The End Complete, lançado em 1992, é o terceiro álbum do Obituary e um dos mais importantes do death metal. Com riffs pesados e cadenciados, atmosfera sombria e os vocais marcantes de John Tardy, o disco traz faixas clássicas como “The End Complete”, “Back to One” e “Arise”, consolidando o Obituary como um dos gigantes do gênero."
+  },
+  21:{
+    image: "../assets/maidenJapan.jpg",
+    title: "Maiden Japan",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00,
+    genre2: "Heavy Metal",
+    sobre: "Maiden Japan, lançado em 1991, é o álbum que apresenta o Iron Maiden no Japão. Com um som poderoso e energético, o disco traz faixas como “The Number of the Beast”, “Run to the Hills” e “Fear of the Dark”, consolidando a presença da banda no mercado asiático."
+  },
+  22:{
+    image: "../assets/LiveAfter.jpg",
+    title: "Live After Death",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00,
+    genre2: "Heavy Metal",
+    sobre: "Live After Death, lançado em 1985, é o álbum ao vivo do Iron Maiden que apresenta performances intensas e energéticas. Com faixas como “The Number of the Beast”, “Run to the Hills” e “Fear of the Dark”, o disco é uma celebração do espírito e da força da banda."
+  },
+  23:{
+    image: "../assets/PowerSlave.jpg",
+    title: "Powerslave",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00,
+    genre2: "Heavy Metal",
+    sobre: "Powerslave, lançado em 1984, é o quinto álbum do Iron Maiden e um dos mais aclamados pela crítica. Com faixas como “Powerslave”, “Run to the Hills” e “Fear of the Dark”, o disco apresenta um som mais acessível e melódico, mantendo a energia e a força que caracterizam a banda."
+  },
+  24:{
+    image: "../assets/SeventhSon.jfif",
+    title: "Seventh Son of a Seventh Son",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00,
+    genre2: "Heavy Metal",
+    sobre: "Seventh Son of a Seventh Son, lançado em 1988, é o sexto álbum do Iron Maiden e um dos mais elogiados pela crítica. Com faixas como “Seventh Son of a Seventh Son”, “Fear of the Dark” e “The Number of the Beast”, o disco apresenta um som mais melódico e acessível, mantendo a energia e a força que caracterizam a banda."
+  },
+  25:{
+    image: "../assets/NoPrayer.jpg",
+    title: "No Prayer for the Dying",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00,
+    genre2: "Heavy Metal",
+    sobre: "No Prayer for the Dying, lançado em 1984, é o sétimo álbum do Iron Maiden e um dos mais aclamados pela crítica. Com faixas como “No Prayer for the Dying”, “Fear of the Dark” e “The Number of the Beast”, o disco apresenta um som mais melódico e acessível, mantendo a energia e a força que caracterizam a banda."
+  },
+  26:{
+    image: "../assets/TheRazor.jpg",
+    title: "The Razor's Edge",
+    artist: "AC/DC",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00,
+    genre2: "Hard Rock",
+    sobre: "The Razor's Edge, lançado em 1990, é o nono álbum do AC/DC e um dos mais vendidos da banda. Com faixas como “The Razor's Edge”, “Thunderstruck” e “Are You Ready”, o disco apresenta um som mais melódico e acessível, mantendo a energia e a força que caracterizam a banda."
+  },
+  27:{
+    image: "../assets/ForTheAbout.jpg",
+    title: "For Those About To Rock",
+    artist: "AC/DC",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00,
+    genre2: "Hard Rock",
+    sobre: "For Those About To Rock, lançado em 1981, é o segundo álbum do AC/DC e um dos mais aclamados pela crítica. Com faixas como “For Those About To Rock”, “You Shook Me All Night Long” e “Thunderstruck”, o disco apresenta um som mais melódico e acessível, mantendo a energia e a força que caracterizam a banda."
+  },
+  28:{
+    image: "../assets/BackInBlack.jpg",
+    title: "Back In Black",
+    artist: "AC/DC",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00,
+    genre2: "Hard Rock",
+    sobre: "Back In Black, lançado em 1980, é o nono álbum do AC/DC e um dos mais vendidos da banda. Com faixas como “Back In Black”, “You Shook Me All Night Long” e “Thunderstruck”, o disco apresenta um som mais melódico e acessível, mantendo a energia e a força que caracterizam a banda."
+  },
+  29:{
+    image: "../assets/UseYourIlusion.jfif",
+    title: "Use Your Ilusion 2",
+    artist: "Guns N' Roses",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00,
+    genre2: "Hard Rock",
+    sobre: "Use Your Ilusion 2, lançado em 1991, é o décimo álbum do Guns N' Roses e um dos mais vendidos da banda. Com faixas como “Use Your Ilusion 2”, “November Rain” e “Don't Cry”, o disco apresenta um som mais melódico e acessível, mantendo a energia e a força que caracterizam a banda."
   }
 };
 

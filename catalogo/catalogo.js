@@ -70,7 +70,7 @@ let cardVulgarPower = {
 
 let cardUseYourIlusion = {
     id: 5,
-    image: "../assets/UseYourIlusion.jfif",
+    image: "../assets/UseYourIlusions2.jfif",
     title: "Use Your Ilusion",
     artist: "Guns N' Roses",
     year: 1991,
@@ -177,6 +177,97 @@ let cardEndComplete = {
     genre: "deathMetal",
     price: 160.00
 };
+// aq
+let maidenJapan = {
+    id: 21,
+    image: "../assets/maidenJapan.jpg",
+    title: "Maiden Japan",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+};
+
+let liveAfter = {
+    id: 22,
+    image: "../assets/LiveAfter.jpg",
+    title: "Live After",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+};
+
+let powerSlave = {
+    id: 23,
+    image: "../assets/PowerSlave.jpg",
+    title: "PowerSlave",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+};
+
+let seventhSon = {
+    id: 24,
+    image: "../assets/SeventhSon.jfif",
+    title: "SeventhSon",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+};
+
+let noPrayer = {
+    id: 25,
+    image: "../assets/NoPrayer.jpg",
+    title: "NoPrayer",
+    artist: "Iron Maiden",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+}
+
+// ACDC
+let theRazor = {
+    id: 26,
+    image: "../assets/TheRazor.jpg",
+    title: "The Razor's Edge",
+    artist: "AC/DC",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+};
+
+let forTheAbout = {
+    id: 27,
+    image: "../assets/ForTheAbout.jpg",
+    title: "For Those About To Rock",
+    artist: "ACDC",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+}
+
+let backInBlack = {
+    id: 28,
+    image: "../assets/BackInBlack.jpg",
+    title: "Back In Black",
+    artist: "ACDC",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+}
+
+let useYourIlusion2 = {
+    id: 29,
+    image: "../assets/UseYourIlusion.jfif",
+    title: "Use Your Ilusion 2",
+    artist: "Guns N' Roses",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+}
 
 
 document.getElementById("card1").innerHTML = `
@@ -455,13 +546,104 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
+
+        document.getElementById("card21").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${maidenJapan.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${maidenJapan.title}</h3>
+                    <p>${maidenJapan.artist}</p>
+                    <p class="preco"><strong>R$ ${maidenJapan.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card22").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${liveAfter.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${liveAfter.title}</h3>
+                    <p>${liveAfter.artist}</p>
+                    <p class="preco"><strong>R$ ${liveAfter.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card23").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${powerSlave.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${powerSlave.title}</h3>
+                    <p>${powerSlave.artist}</p>
+                    <p class="preco"><strong>R$ ${powerSlave.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card24").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${seventhSon.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${seventhSon.title}</h3>
+                    <p>${seventhSon.artist}</p>
+                    <p class="preco"><strong>R$ ${seventhSon.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card25").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${noPrayer.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${noPrayer.title}</h3>
+                    <p>${noPrayer.artist}</p>
+                    <p class="preco"><strong>R$ ${noPrayer.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card26").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${theRazor.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${theRazor.title}</h3>
+                    <p>${theRazor.artist}</p>
+                    <p class="preco"><strong>R$ ${theRazor.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card27").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${forTheAbout.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${forTheAbout.title}</h3>
+                    <p>${forTheAbout.artist}</p>
+                    <p class="preco"><strong>R$ ${forTheAbout.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card28").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${backInBlack.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${backInBlack.title}</h3>
+                    <p>${backInBlack.artist}</p>
+                    <p class="preco"><strong>R$ ${backInBlack.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+        document.getElementById("card29").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${useYourIlusion2.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${useYourIlusion2.title}</h3>
+                    <p>${useYourIlusion2.artist}</p>
+                    <p class="preco"><strong>R$ ${useYourIlusion2.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
         
 // // Cards da section Novidades
 
 
 
 // Array de todos os discos
-let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardBlackSabath, cardEnvelhecoCidade, cardCardume, cardCamisaVenus, cardMetallicaBlack, cardRideTheLight, cardLegion, cardDeicide, cardIronMaiden, cardKillers, cardFarBeyond, cardBlackOfSouls, cardEndComplete, cardObituary];
+let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardBlackSabath, cardEnvelhecoCidade, cardCardume, cardCamisaVenus, cardMetallicaBlack, cardRideTheLight, cardLegion, cardDeicide, cardIronMaiden, cardKillers, cardFarBeyond, cardBlackOfSouls, cardEndComplete, cardObituary, maidenJapan, liveAfter, powerSlave, seventhSon, noPrayer, theRazor, forTheAbout, backInBlack, useYourIlusion2];
 
 const listaCards = document.getElementById("centralizar");
 const contador = document.getElementById("contador");
@@ -509,6 +691,9 @@ function filtrarDiscos() {
 
   renderCards(resultado);
 }
+
+let totalDiscos = document.getElementById("totalDiscos");
+totalDiscos.textContent = `${todosDiscos.length} discos disponíveis`;
 
 // ===== EVENTOS =====
 document.getElementById("filtroArtista").addEventListener("input", filtrarDiscos);
