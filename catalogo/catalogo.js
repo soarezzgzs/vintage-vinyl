@@ -40,9 +40,9 @@ let cardMetallica = {
 let cardInjustice = {
     id: 2,
     image: "../assets/Injustice.jfif",
-    title: "Injustice For All",
+    title: "...And Justice for All",
     artist: "Metallica",
-    year: 1986,
+    year: 1988,
     genre: "thrashMetal",
     price: 180.00
 };
@@ -52,7 +52,7 @@ let cardFearOf = {
     image: "../assets/FearOfTheDark.jfif",
     title: "Fear of the Dark",
     artist: "Iron Maiden",
-    year: 1980,
+    year: 1992,
     genre: "heavyMetal",
     price: 150.00
 };
@@ -60,7 +60,7 @@ let cardFearOf = {
 let cardVulgarPower = {
     id: 4,
     image: "../assets/VulgarPower.jfif",
-    title: "Vulgar Power",
+    title: "Vulgar Display of Power",
     artist: "Pantera",
     year: 1992,
     genre: "grooveMetal",
@@ -81,7 +81,7 @@ let cardUseYourIlusion = {
 let cardMetallicaBlack = {
     id: 11,
     image: "../assets/Metallica.jfif",
-    title: "Metallica",
+    title: "Metallica (The Black Album)",
     artist: "Metallica",
     year: 1991,
     genre: "thrashMetal",
@@ -141,17 +141,17 @@ let cardKillers = {
 let cardFarBeyond = {
     id: 17,
     image: "../assets/FarBeyond.jfif",
-    title: "FarBeyond",
+    title: "Far Beyond Driven",
     artist: "Pantera",
-    year: 1991,
-    genre: "thrashMetal",
+    year: 1994,
+    genre: "grooveMetal",
     price: 160.00
 };
 
 let cardBlackOfSouls = {
     id: 18,
     image: "../assets/BlackOfSouls.jfif",
-    title: "BlackOfSouls",
+    title: "Black of Souls ",
     artist: "Testament",
     year: 1991,
     genre: "thrashMetal",
@@ -161,7 +161,7 @@ let cardBlackOfSouls = {
 let cardObituary = {
     id: 19,
     image: "../assets/Obituary.jfif",
-    title: "Obituary Slowly we rot",
+    title: "Slowly We Rot",
     artist: "Obituary",
     year: 1991,
     genre: "deathMetal",
@@ -171,7 +171,7 @@ let cardObituary = {
 let cardEndComplete = {
     id: 20,
     image: "../assets/EndComplete.jfif",
-    title: "EndComplete",
+    title: "The End Complete",
     artist: "Obituary",
     year: 1991,
     genre: "deathMetal",
@@ -191,7 +191,7 @@ let maidenJapan = {
 let liveAfter = {
     id: 22,
     image: "../assets/LiveAfter.jpg",
-    title: "Live After",
+    title: "Live After Death",
     artist: "Iron Maiden",
     year: 1991,
     genre: "heavyMetal",
@@ -201,7 +201,7 @@ let liveAfter = {
 let powerSlave = {
     id: 23,
     image: "../assets/PowerSlave.jpg",
-    title: "PowerSlave",
+    title: "Powerslave",
     artist: "Iron Maiden",
     year: 1991,
     genre: "heavyMetal",
@@ -211,7 +211,7 @@ let powerSlave = {
 let seventhSon = {
     id: 24,
     image: "../assets/SeventhSon.jfif",
-    title: "SeventhSon",
+    title: "Seventh Son of a Seventh Son ",
     artist: "Iron Maiden",
     year: 1991,
     genre: "heavyMetal",
@@ -221,7 +221,7 @@ let seventhSon = {
 let noPrayer = {
     id: 25,
     image: "../assets/NoPrayer.jpg",
-    title: "NoPrayer",
+    title: "No Prayer for the Dying",
     artist: "Iron Maiden",
     year: 1991,
     genre: "heavyMetal",
@@ -232,7 +232,7 @@ let noPrayer = {
 let theRazor = {
     id: 26,
     image: "../assets/TheRazor.jpg",
-    title: "The Razor's Edge",
+    title: "The Razors Edge",
     artist: "AC/DC",
     year: 1991,
     genre: "hardRock",
@@ -242,8 +242,8 @@ let theRazor = {
 let forTheAbout = {
     id: 27,
     image: "../assets/ForTheAbout.jpg",
-    title: "For Those About To Rock",
-    artist: "ACDC",
+    title: "For Those About to Rock",
+    artist: "AC/DC",
     year: 1991,
     genre: "hardRock",
     price: 160.00
@@ -253,7 +253,7 @@ let backInBlack = {
     id: 28,
     image: "../assets/BackInBlack.jpg",
     title: "Back In Black",
-    artist: "ACDC",
+    artist: "AC/DC",
     year: 1991,
     genre: "hardRock",
     price: 160.00
@@ -268,6 +268,198 @@ let useYourIlusion2 = {
     genre: "hardRock",
     price: 160.00
 }
+
+let destiny = {
+    id: 30,
+    image: "../assets/Destiny.jpg",
+    title: "Destiny",
+    artist: "Saxon",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+}
+
+let rockTheNation = {
+    id: 31,
+    image: "../assets/RockTheNation.jfif",
+    title: "Rock The Nations",
+    artist: "Saxon",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+}
+
+let skidRow = {
+    id: 32,
+    image: "../assets/SkidRow.jpg",
+    title: "Skid Row",
+    artist: "Skid Row",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+}
+
+let slaveToTheGrind = {
+    id: 33,
+    image: "../assets/SlaveToTheGrind.jpg",
+    title: "Slave To The Grind",
+    artist: "Skid Row",
+    year: 1991,
+    genre: "hardRock",
+    price: 160.00
+}
+
+let liveDonighton = {
+    id: 34,
+    image: "../assets/LiveDonighton.avif",
+    title: "Live at Donington",
+    artist: "Pantera",
+    year: 1991,
+    genre: "grooveMetal",
+    price: 160.00
+}
+
+let liveUk = {
+    id: 35,
+    image: "../assets/LiveUk.jpg",
+    title: "Live in the U.K.",
+    artist: "Halloween",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+}
+
+let amomOfTheBeast = {
+    id: 36,
+    image: "../assets/AmomOfTheBeast.avif",
+    title: "Amon: The Beast",
+    artist: "Deicide",
+    year: 1991,
+    genre: "deathMetal",
+    price: 160.00
+}
+
+let volume4 = {
+    id: 37,
+    image: "../assets/Volume4.png",
+    title: "Vol. 4",
+    artist: "Black Sabbath",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+}
+
+let mobRules = {
+    id: 38,
+    image: "../assets/MobRules.jpg",
+    title: "Mob Rules",
+    artist: "Black Sabbath",
+    year: 1991,
+    genre: "heavyMetal",
+    price: 160.00
+};
+
+let cardComaOfSouls = {
+    id: 39,
+    image: "../assets/ComaOfSouls.jfif",
+    title: "Coma of Souls",
+    artist: "Kreator",
+    year: 1990,
+    genre: "thrashMetal",
+    price: 160.00
+};
+
+let cardEndlessPain = {
+    id: 40,
+    image: "../assets/EndlessPain.jpg",
+    title: "Endless Pain",
+    artist: "Kreator",
+    year: 1982,
+    genre: "thrashMetal",
+    price: 160.00
+};
+
+let cardTombOfMutilated = {
+    id: 41,
+    image: "../assets/TombOfTheMutilated.jpeg",
+    title: "Tomb of the Mutilated",
+    artist: "Cannibal Corpse",
+    year: 1992,
+    genre: "deathMetal",
+    price: 160.00
+};
+
+let cardStayHungry = {
+    id: 42,
+    image: "../assets/StayHungry.jpg",
+    title: "Stay Hungry",
+    artist: "Twisted Sister",
+    year: 1984,
+    genre: "hardRock",
+    price: 160.00
+};
+
+let cardReignInBlood = {
+    id: 43,
+    image: "../assets/ReignInBlood.jpg",
+    title: "Reign in Blood",
+    artist: "Slayer",
+    year: 1986,
+    genre: "thrashMetal",
+    price: 160.00
+};
+
+let cardShowNoMercy = {
+    id: 44,
+    image: "../assets/ShowNoMercy.jpg",
+    title: "Show No Mercy",
+    artist: "Slayer",
+    year: 1983,
+    genre: "thrashMetal",
+    price: 160.00
+};
+
+let cardLastInLine = {
+    id: 45,
+    image: "../assets/LastInLine.avif",
+    title: "The Last in Line",
+    artist: "DIO",
+    year: 1984,
+    genre: "heavyMetal",
+    price: 160.00
+};
+
+let arise = {
+    id: 46,
+    image: "../assets/Arise.jpg",
+    title: "Arise",
+    artist: "Sepultura",
+    year: 1991,
+    genre: "thrashMetal",
+    price: 160.00
+}
+
+let chaosAd = {
+    id: 47,
+    image: "../assets/ChaosAd.jpg",
+    title: "Chaos A.D",
+    artist: "Sepultura",
+    year: 1991,
+    genre: "thrashMetal",
+    price: 160.00
+}
+
+let benethTheRemains = {
+    id: 48,
+    image: "../assets/BenethTheRemains.jpg",
+    title: "Beneath The Remains",
+    artist: "Sepultura",
+    year: 1991,
+    genre: "thrashMetal",
+    price: 160.00
+}
+
+
 
 
 document.getElementById("card1").innerHTML = `
@@ -324,60 +516,60 @@ document.getElementById("card5").innerHTML = `
         </div>
         </div>
         `;
-        
-        // Fim dos cards da section discosDestaque
-        let cardQuatroEstacoes = {
-            id: 6,
-            image: "../assets/QuatroEstacoes.jfif",
-            title: "Quatro Estações",
-            artist: "Legião Urbana",
-            year: 1989,
-            genre: "rockNacional",
-            price: 180.00
-        };
-        
-        let cardBlackSabath = {
-            id: 7,
-            image: "../assets/AlivioImediato.jfif",
-            title: "Alivio Imediato",
-            artist: "Engenheiros do Hawaii",
-            year: 1989,
-            genre: "rockNacional",
-            price: 180.00
-        }
-        
-        let cardEnvelhecoCidade = {
-            id: 8,
-            image: "../assets/EnvelhecoCidade.jfif",
-            title: "Envelheço Cidade",
-            artist: "Ira!",
-            year: 1986,
-            genre: "rockNacional",
-            price: 180.00
-        };
-        
-        
-        let cardCardume = {
-            id: 9,
-            image: "../assets/Cardume.jfif",
-            title: "Cardume",
-            artist: "Nenhum de Nós",
-            year: 1989,
-            genre: "rockNacional",
-            price: 180.00
-        };
-        
-        let cardCamisaVenus = {
-            id: 10,
-            image: "../assets/CamisaVenus.jfif",
-            title: "Camisa Vênus",
-            artist: "Camisa de Vênus",
-            year: 1986,
-            genre: "rockNacional",
-            price: 180.00
-        };
-        
-        document.getElementById("card6").innerHTML = `
+
+// Fim dos cards da section discosDestaque
+let cardQuatroEstacoes = {
+    id: 6,
+    image: "../assets/QuatroEstacoes.jfif",
+    title: "Quatro Estações",
+    artist: "Legião Urbana",
+    year: 1989,
+    genre: "rockNacional",
+    price: 180.00
+};
+
+let cardBlackSabath = {
+    id: 7,
+    image: "../assets/AlivioImediato.jfif",
+    title: "Alivio Imediato",
+    artist: "Engenheiros do Hawaii",
+    year: 1989,
+    genre: "rockNacional",
+    price: 180.00
+}
+
+let cardEnvelhecoCidade = {
+    id: 8,
+    image: "../assets/EnvelhecoCidade.jfif",
+    title: "Envelheço Cidade",
+    artist: "Ira!",
+    year: 1986,
+    genre: "rockNacional",
+    price: 180.00
+};
+
+
+let cardCardume = {
+    id: 9,
+    image: "../assets/Cardume.jfif",
+    title: "Cardume",
+    artist: "Nenhum de Nós",
+    year: 1989,
+    genre: "rockNacional",
+    price: 180.00
+};
+
+let cardCamisaVenus = {
+    id: 10,
+    image: "../assets/CamisaVenus.jfif",
+    title: "Camisa Vênus",
+    artist: "Camisa de Vênus",
+    year: 1986,
+    genre: "rockNacional",
+    price: 180.00
+};
+
+document.getElementById("card6").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardQuatroEstacoes.image}')"><div class="card-image-span"><span>${cardQuatroEstacoes.genre}</span></div></div>
                 <div class="card-info">
@@ -387,10 +579,10 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
 
-        
-        document.getElementById("card8").innerHTML = `
+
+
+document.getElementById("card8").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardEnvelhecoCidade.image}')"><div class="card-image-span"><span>${cardEnvelhecoCidade.genre}</span></div></div>
                 <div class="card-info">
@@ -401,7 +593,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card7").innerHTML = `
+document.getElementById("card7").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardBlackSabath.image}')"><div class="card-image-span"><span>${cardBlackSabath.genre}</span></div></div>
                 <div class="card-info">
@@ -412,8 +604,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card9").innerHTML = `
+
+document.getElementById("card9").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardCardume.image}')"><div class="card-image-span"><span>${cardCardume.genre}</span></div></div>
                 <div class="card-info">
@@ -423,8 +615,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card10").innerHTML = `
+
+document.getElementById("card10").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardCamisaVenus.image}')"><div class="card-image-span"><span>${cardCamisaVenus.genre}</span></div></div>
                 <div class="card-info">
@@ -434,9 +626,9 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        
-        document.getElementById("card11").innerHTML = `
+
+
+document.getElementById("card11").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardMetallicaBlack.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -446,8 +638,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card12").innerHTML = `
+
+document.getElementById("card12").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardRideTheLight.image}')"><div class="card-image-span"><span>${cardRideTheLight.genre}</span></div></div>
                 <div class="card-info">
@@ -457,8 +649,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card13").innerHTML = `
+
+document.getElementById("card13").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardLegion.image}')"><div class="card-image-span"><span>${cardLegion.genre}</span></div></div>
                 <div class="card-info">
@@ -468,8 +660,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card14").innerHTML = `
+
+document.getElementById("card14").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardDeicide.image}')"><div class="card-image-span"><span>${cardDeicide.genre}</span></div></div>
                 <div class="card-info">
@@ -479,8 +671,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card15").innerHTML = `
+
+document.getElementById("card15").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardIronMaiden.image}')"><div class="card-image-span"><span>${cardIronMaiden.genre}</span></div></div>
                 <div class="card-info">
@@ -490,8 +682,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card16").innerHTML = `
+
+document.getElementById("card16").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardKillers.image}')"><div class="card-image-span"><span>${cardKillers.genre}</span></div></div>
                 <div class="card-info">
@@ -501,8 +693,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card17").innerHTML = `
+
+document.getElementById("card17").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardFarBeyond.image}')"><div class="card-image-span"><span>${cardFarBeyond.genre}</span></div></div>
                 <div class="card-info">
@@ -512,8 +704,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card18").innerHTML = `
+
+document.getElementById("card18").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardBlackOfSouls.image}')"><div class="card-image-span"><span>${cardBlackOfSouls.genre}</span></div></div>
                 <div class="card-info">
@@ -523,8 +715,8 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        document.getElementById("card19").innerHTML = `
+
+document.getElementById("card19").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardEndComplete.image}')"><div class="card-image-span"><span>${cardEndComplete.genre}</span></div></div>
                 <div class="card-info">
@@ -534,9 +726,9 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
-        
-        document.getElementById("card20").innerHTML = `
+
+
+document.getElementById("card20").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${cardObituary.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -547,7 +739,7 @@ document.getElementById("card5").innerHTML = `
             </div>
         `;
 
-        document.getElementById("card21").innerHTML = `
+document.getElementById("card21").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${maidenJapan.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -557,7 +749,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card22").innerHTML = `
+document.getElementById("card22").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${liveAfter.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -567,7 +759,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card23").innerHTML = `
+document.getElementById("card23").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${powerSlave.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -577,7 +769,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card24").innerHTML = `
+document.getElementById("card24").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${seventhSon.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -587,7 +779,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card25").innerHTML = `
+document.getElementById("card25").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${noPrayer.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -597,7 +789,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card26").innerHTML = `
+document.getElementById("card26").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${theRazor.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -607,7 +799,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card27").innerHTML = `
+document.getElementById("card27").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${forTheAbout.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -617,7 +809,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card28").innerHTML = `
+document.getElementById("card28").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${backInBlack.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -627,7 +819,7 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        document.getElementById("card29").innerHTML = `
+document.getElementById("card29").innerHTML = `
             <div class="card">
                 <div class="card-image" style="background-image: url('${useYourIlusion2.image}')"><div class="card-image-span"></div></div>
                 <div class="card-info">
@@ -637,22 +829,213 @@ document.getElementById("card5").innerHTML = `
                 </div>
             </div>
         `;
-        
+document.getElementById("card30").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${destiny.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${destiny.title}</h3>
+                    <p>${destiny.artist}</p>
+                    <p class="preco"><strong>R$ ${destiny.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card31").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${rockTheNation.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${rockTheNation.title}</h3>
+                    <p>${rockTheNation.artist}</p>
+                    <p class="preco"><strong>R$ ${rockTheNation.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card32").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${skidRow.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${skidRow.title}</h3>
+                    <p>${skidRow.artist}</p>
+                    <p class="preco"><strong>R$ ${skidRow.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card33").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${slaveToTheGrind.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${slaveToTheGrind.title}</h3>
+                    <p>${slaveToTheGrind.artist}</p>
+                    <p class="preco"><strong>R$ ${slaveToTheGrind.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card34").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${liveDonighton.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${liveDonighton.title}</h3>
+                    <p>${liveDonighton.artist}</p>
+                    <p class="preco"><strong>R$ ${liveDonighton.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card35").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${liveUk.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${liveUk.title}</h3>
+                    <p>${liveUk.artist}</p>
+                    <p class="preco"><strong>R$ ${liveUk.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card36").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${amomOfTheBeast.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${amomOfTheBeast.title}</h3>
+                    <p>${amomOfTheBeast.artist}</p>
+                    <p class="preco"><strong>R$ ${amomOfTheBeast.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card37").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${volume4.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${volume4.title}</h3>
+                    <p>${volume4.artist}</p>
+                    <p class="preco"><strong>R$ ${volume4.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card38").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${mobRules.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${mobRules.title}</h3>
+                    <p>${mobRules.artist}</p>
+                    <p class="preco"><strong>R$ ${mobRules.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card39").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${cardComaOfSouls.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${cardComaOfSouls.title}</h3>
+                    <p>${cardComaOfSouls.artist}</p>
+                    <p class="preco"><strong>R$ ${cardComaOfSouls.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card40").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${cardEndlessPain.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${cardEndlessPain.title}</h3>
+                    <p>${cardEndlessPain.artist}</p>
+                    <p class="preco"><strong>R$ ${cardEndlessPain.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card41").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${cardTombOfMutilated.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${cardTombOfMutilated.title}</h3>
+                    <p>${cardTombOfMutilated.artist}</p>
+                    <p class="preco"><strong>R$ ${cardTombOfMutilated.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card42").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${cardStayHungry.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${cardStayHungry.title}</h3>
+                    <p>${cardStayHungry.artist}</p>
+                    <p class="preco"><strong>R$ ${cardStayHungry.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card43").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${cardReignInBlood.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${cardReignInBlood.title}</h3>
+                    <p>${cardReignInBlood.artist}</p>
+                    <p class="preco"><strong>R$ ${cardReignInBlood.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card44").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${cardShowNoMercy.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${cardShowNoMercy.title}</h3>
+                    <p>${cardShowNoMercy.artist}</p>
+                    <p class="preco"><strong>R$ ${cardShowNoMercy.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card45").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${cardLastInLine.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${cardLastInLine.title}</h3>
+                    <p>${cardLastInLine.artist}</p>
+                    <p class="preco"><strong>R$ ${cardLastInLine.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card46").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${arise.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${arise.title}</h3>
+                    <p>${arise.artist}</p>
+                    <p class="preco"><strong>R$ ${arise.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card47").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${chaosAd.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${chaosAd.title}</h3>
+                    <p>${chaosAd.artist}</p>
+                    <p class="preco"><strong>R$ ${chaosAd.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+document.getElementById("card48").innerHTML = `
+            <div class="card">
+                <div class="card-image" style="background-image: url('${benethTheRemains.image}')"><div class="card-image-span"></div></div>
+                <div class="card-info">
+                    <h3>${benethTheRemains.title}</h3>
+                    <p>${benethTheRemains.artist}</p>
+                    <p class="preco"><strong>R$ ${benethTheRemains.price.toFixed(2)}</strong></p>
+                </div>
+            </div>
+        `;
+
+
 // // Cards da section Novidades
 
 
 
 // Array de todos os discos
-let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardBlackSabath, cardEnvelhecoCidade, cardCardume, cardCamisaVenus, cardMetallicaBlack, cardRideTheLight, cardLegion, cardDeicide, cardIronMaiden, cardKillers, cardFarBeyond, cardBlackOfSouls, cardEndComplete, cardObituary, maidenJapan, liveAfter, powerSlave, seventhSon, noPrayer, theRazor, forTheAbout, backInBlack, useYourIlusion2];
+let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardBlackSabath, cardEnvelhecoCidade, cardCardume, cardCamisaVenus, cardMetallicaBlack, cardRideTheLight, cardLegion, cardDeicide, cardIronMaiden, cardKillers, cardFarBeyond, cardBlackOfSouls, cardEndComplete, cardObituary, maidenJapan, liveAfter, powerSlave, seventhSon, noPrayer, theRazor, forTheAbout, backInBlack, useYourIlusion2, destiny, rockTheNation, skidRow, slaveToTheGrind, liveDonighton, liveUk, amomOfTheBeast, volume4, mobRules, cardComaOfSouls, cardEndlessPain, cardTombOfMutilated, cardStayHungry, cardReignInBlood, cardShowNoMercy, cardLastInLine, arise, chaosAd, benethTheRemains];
 
 const listaCards = document.getElementById("centralizar");
 const contador = document.getElementById("contador");
 
 function renderCards(discos) {
-  listaCards.innerHTML = "";
+    listaCards.innerHTML = "";
 
-discos.forEach(disco => {
-    listaCards.innerHTML += `
+    discos.forEach(disco => {
+        listaCards.innerHTML += `
     
     <a href="../produtos/produto.html?id=${disco.id}" class="card">
     <div class="card-image"
@@ -667,29 +1050,29 @@ discos.forEach(disco => {
     </a>
     </div>
     `;
-  });
+    });
 
-  contador.textContent = `${discos.length} discos encontrados`;
+    contador.textContent = `${discos.length} discos encontrados`;
 }
 
 
 // ===== FILTRO COMBINADO =====
 function filtrarDiscos() {
-  const texto = document.getElementById("filtroArtista").value.toLowerCase();
-  const genero = document.getElementById("filtro-genero").value;
+    const texto = document.getElementById("filtroArtista").value.toLowerCase();
+    const genero = document.getElementById("filtro-genero").value;
 
-  const resultado = todosDiscos.filter(disco => {
-    const matchTexto =
-      disco.artist.toLowerCase().includes(texto) ||
-      disco.title.toLowerCase().includes(texto);
+    const resultado = todosDiscos.filter(disco => {
+        const matchTexto =
+            disco.artist.toLowerCase().includes(texto) ||
+            disco.title.toLowerCase().includes(texto);
 
-    const matchGenero =
-      genero === "todos" || disco.genre === genero;
+        const matchGenero =
+            genero === "todos" || disco.genre === genero;
 
-    return matchTexto && matchGenero;
-  });
+        return matchTexto && matchGenero;
+    });
 
-  renderCards(resultado);
+    renderCards(resultado);
 }
 
 let totalDiscos = document.getElementById("totalDiscos");
