@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="produto.css">
 </head>
+
 <body>
     <header>
-           <nav>
-               <ul>
+        <nav>
+            <ul>
                 <div class="divSuprema desktop-only">
                     <div class="esquerda">
                         <img class="imgCD" src="../assets/cd.png" alt="">
@@ -24,61 +26,91 @@
                         <li><a id="parteDireita" href="../catalogo/catalogo.html">Catálogo</a></li>
                         <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
                     </div>
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping">
+                        <span id="cart-count" class="cart-count">0</span>
+                        <div class="cart">
+                            <h2>Carrinho</h2>
+                            <ul id="cart-items"></ul>
+                            <div class="cart-foot">
+                                <p>Total: R$ <span id="cart-total">0</span></p>
+                                <button class="checkout">Finalizar Compra</button>
+                            </div>
+                        </div>
+                    </i>
                 </div>
-                    <div class="mobile-only">
+                <div class="mobile-only">
                     <div class="mobile-header">
                         <div class="mobile-logo">
-                        <img class="imgCD" src="../assets/cd.png" alt="">
-                        <p id="cr"><a href="#"></a>Vintage Vinyl</p>
-                        <br>
+                            <img class="imgCD" src="../assets/cd.png" alt="">
+                            <p id="cr"><a href="#"></a>Vintage Vinyl</p>
+                            <br>
                         </div>
-                        <div class="mobile-menu-icon" id="mobile-menu-icon">
-                            <i class="fa-solid fa-bars"></i>
+                        <div class="mobile-header-icons">
+                            <i id="mobile-cart-icon" class="fa-solid fa-cart-shopping">
+                                <span id="mobile-cart-count" class="cart-count">0</span>
+                            </i>
+                            <div class="mobile-menu-icon" id="mobile-menu-icon">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="mobile-menu" id="mobile-menu">
                         <ul>
-                        <li><a id="parteDireita" href="../index.html">Inicio</a></li>
-                        <li><a id="parteDireita" href="../catalogo/catalogo.html">Catálogo</a></li>
-                        <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
+                            <li><a id="parteDireita" href="../index.html">Inicio</a></li>
+                            <li><a id="parteDireita" href="../catalogo/catalogo.html">Catálogo</a></li>
+                            <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
                         </ul>
+                    </div>
+                    <div class="mobile-cart" id="mobile-cart">
+                        <div class="mobile-cart-content">
+                            <div class="mobile-cart-header">
+                                <h2>Carrinho</h2>
+                                <button id="mobile-cart-close" class="mobile-cart-close"><i
+                                        class="fa-solid fa-times"></i></button>
+                            </div>
+                            <ul id="mobile-cart-items"></ul>
+                            <div class="mobile-cart-foot">
+                                <p>Total: R$ <span id="mobile-cart-total">0</span></p>
+                                <button class="mobile-checkout">Finalizar Compra</button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </ul>
-           </nav>
-       </header>
-       <main>
+        </nav>
+    </header>
+    <main>
         <div>
         </div>
-           <div class="container">
-               <div class="imgProduto">
-                   <img id="imgProduto">
+        <div class="container">
+            <div class="imgProduto">
+                <img id="imgProduto">
+            </div>
+            <div class="infoLado">
+                <a class="voltarCat" href="../catalogo/catalogo.html">← Voltar ao catálogo</a>
+                <div class="description">
+                    <p id="genre"></p>
+                    <h1 id="nome"></h1>
+                    <p id="descricao"></p>
                 </div>
-                <div class="infoLado">
-                    <a class="voltarCat" href="../catalogo/catalogo.html">← Voltar ao catálogo</a>
-                    <div class="description">
-                        <p id="genre"></p>
-                        <h1 id="nome"></h1>
-                        <p id="descricao"></p>   
-                    </div>
-                    <div class="preco">
-                        <p>Preço</p>
-                        <p id="preco"></p>
-                    </div>
-                    <div class="comprar">
-                        <a href="#">Comprar no Mercado Livre</a>
-                        <a href="#">Comprar na Shopee</a>
-                    </div>
-                    <div class="sobre">
-                        <p>Sobre este álbum</p>
-                        <p id="sobre"></p>
-                    </div>
+                <div class="preco">
+                    <p>Preço</p>
+                    <p id="preco"></p>
+                </div>
+                <div class="comprar">
+                    <a href="#">Comprar no Mercado Livre</a>
+                    <a href="#">Comprar na Shopee</a>
+                </div>
+                <div class="sobre">
+                    <p>Sobre este álbum</p>
+                    <p id="sobre"></p>
                 </div>
             </div>
-        </main>
+        </div>
+    </main>
 </body>
+<script src="../cart.js"></script>
 <script src="produto.js"></script>
+
 </html>
-
-

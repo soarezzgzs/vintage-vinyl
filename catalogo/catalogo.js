@@ -469,6 +469,7 @@ document.getElementById("card1").innerHTML = `
         <h3>${cardMetallica.title}</h3>
         <p>${cardMetallica.artist}</p>
         <p class="preco"><strong>R$ ${cardMetallica.price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${cardMetallica.title}', ${cardMetallica.price}, event)">Adicionar ao Carrinho</button>
         </div>
     </div>
 `;
@@ -480,6 +481,7 @@ document.getElementById("card2").innerHTML = `
             <h3>${cardInjustice.title}</h3>
             <p>${cardInjustice.artist}</p>
             <p class="preco"><strong>R$ ${cardInjustice.price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${cardInjustice.title}', ${cardInjustice.price}, event)">Adicionar ao Carrinho</button>
             </div>
     </div>
 `;
@@ -491,6 +493,7 @@ document.getElementById("card3").innerHTML = `
         <h3>${cardFearOf.title}</h3>
             <p>${cardFearOf.artist}</p>
             <p class="preco"><strong>R$ ${cardFearOf.price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${cardFearOf.title}', ${cardFearOf.price}, event)">Adicionar ao Carrinho</button>
         </div>
     </div>
     `;
@@ -502,6 +505,7 @@ document.getElementById("card4").innerHTML = `
             <h3>${cardVulgarPower.title}</h3>
             <p>${cardVulgarPower.artist}</p>
             <p class="preco"><strong>R$ ${cardVulgarPower.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardVulgarPower.title}', ${cardVulgarPower.price}, event)">Adicionar ao Carrinho</button>
             </div>
     </div>
 `;
@@ -513,6 +517,7 @@ document.getElementById("card5").innerHTML = `
             <h3>${cardUseYourIlusion.title}</h3>
             <p>${cardUseYourIlusion.artist}</p>
             <p class="preco"><strong>R$ ${cardUseYourIlusion.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardUseYourIlusion.title}', ${cardUseYourIlusion.price}, event)">Adicionar ao Carrinho</button>
         </div>
         </div>
         `;
@@ -576,6 +581,7 @@ document.getElementById("card6").innerHTML = `
                     <h3>${cardQuatroEstacoes.title}</h3>
                     <p>${cardQuatroEstacoes.artist}</p>
                     <p class="preco"><strong>R$ ${cardQuatroEstacoes.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardQuatroEstacoes.title}', ${cardQuatroEstacoes.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -589,6 +595,7 @@ document.getElementById("card8").innerHTML = `
                     <h3>${cardEnvelhecoCidade.title}</h3>
                     <p>${cardEnvelhecoCidade.artist}</p>
                     <p class="preco"><strong>R$ ${cardEnvelhecoCidade.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardEnvelhecoCidade.title}', ${cardEnvelhecoCidade.price}, event)">Adicionar ao Carrinho</button>
         
                 </div>
             </div>
@@ -600,6 +607,7 @@ document.getElementById("card7").innerHTML = `
                     <h3>${cardBlackSabath.title}</h3>
                     <p>${cardBlackSabath.artist}</p>
                     <p class="preco"><strong>R$ ${cardBlackSabath.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardBlackSabath.title}', ${cardBlackSabath.price}, event)">Adicionar ao Carrinho</button>
         
                 </div>
             </div>
@@ -612,6 +620,7 @@ document.getElementById("card9").innerHTML = `
                     <h3>${cardCardume.title}</h3>
                     <p>${cardCardume.artist}</p>
                     <p class="preco"><strong>R$ ${cardCardume.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardCardume.title}', ${cardCardume.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -623,6 +632,7 @@ document.getElementById("card10").innerHTML = `
                     <h3>${cardCamisaVenus.title}</h3>
                     <p>${cardCamisaVenus.artist}</p>
                     <p class="preco"><strong>R$ ${cardCamisaVenus.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardCamisaVenus.title}', ${cardCamisaVenus.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -635,6 +645,7 @@ document.getElementById("card11").innerHTML = `
                     <h3>${cardMetallicaBlack.title}</h3>
                     <p>${cardMetallicaBlack.artist}</p>
                     <p class="preco"><strong>R$ ${cardMetallicaBlack.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardMetallicaBlack.title}', ${cardMetallicaBlack.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -646,6 +657,7 @@ document.getElementById("card12").innerHTML = `
                     <h3>${cardRideTheLight.title}</h3>
                     <p>${cardRideTheLight.artist}</p>
                     <p class="preco"><strong>R$ ${cardRideTheLight.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardRideTheLight.title}', ${cardRideTheLight.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -657,6 +669,7 @@ document.getElementById("card13").innerHTML = `
                     <h3>${cardLegion.title}</h3>
                     <p>${cardLegion.artist}</p>
                     <p class="preco"><strong>R$ ${cardLegion.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardLegion.title}', ${cardLegion.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -668,6 +681,7 @@ document.getElementById("card14").innerHTML = `
                     <h3>${cardDeicide.title}</h3>
                     <p>${cardDeicide.artist}</p>
                     <p class="preco"><strong>R$ ${cardDeicide.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardDeicide.title}', ${cardDeicide.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -679,6 +693,7 @@ document.getElementById("card15").innerHTML = `
                     <h3>${cardIronMaiden.title}</h3>
                     <p>${cardIronMaiden.artist}</p>
                     <p class="preco"><strong>R$ ${cardIronMaiden.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardIronMaiden.title}', ${cardIronMaiden.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -690,6 +705,7 @@ document.getElementById("card16").innerHTML = `
                     <h3>${cardKillers.title}</h3>
                     <p>${cardKillers.artist}</p>
                     <p class="preco"><strong>R$ ${cardKillers.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardKillers.title}', ${cardKillers.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -701,6 +717,7 @@ document.getElementById("card17").innerHTML = `
                     <h3>${cardFarBeyond.title}</h3>
                     <p>${cardFarBeyond.artist}</p>
                     <p class="preco"><strong>R$ ${cardFarBeyond.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardFarBeyond.title}', ${cardFarBeyond.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -712,6 +729,7 @@ document.getElementById("card18").innerHTML = `
                     <h3>${cardBlackOfSouls.title}</h3>
                     <p>${cardBlackOfSouls.artist}</p>
                     <p class="preco"><strong>R$ ${cardBlackOfSouls.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardBlackOfSouls.title}', ${cardBlackOfSouls.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -723,6 +741,7 @@ document.getElementById("card19").innerHTML = `
                     <h3>${cardEndComplete.title}</h3>
                     <p>${cardEndComplete.artist}</p>
                     <p class="preco"><strong>R$ ${cardEndComplete.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardEndComplete.title}', ${cardEndComplete.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -735,6 +754,7 @@ document.getElementById("card20").innerHTML = `
                     <h3>${cardObituary.title}</h3>
                     <p>${cardObituary.artist}</p>
                     <p class="preco"><strong>R$ ${cardObituary.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardObituary.title}', ${cardObituary.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -746,6 +766,7 @@ document.getElementById("card21").innerHTML = `
                     <h3>${maidenJapan.title}</h3>
                     <p>${maidenJapan.artist}</p>
                     <p class="preco"><strong>R$ ${maidenJapan.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${maidenJapan.title}', ${maidenJapan.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -756,6 +777,7 @@ document.getElementById("card22").innerHTML = `
                     <h3>${liveAfter.title}</h3>
                     <p>${liveAfter.artist}</p>
                     <p class="preco"><strong>R$ ${liveAfter.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${liveAfter.title}', ${liveAfter.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -766,6 +788,7 @@ document.getElementById("card23").innerHTML = `
                     <h3>${powerSlave.title}</h3>
                     <p>${powerSlave.artist}</p>
                     <p class="preco"><strong>R$ ${powerSlave.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${powerSlave.title}', ${powerSlave.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -776,6 +799,7 @@ document.getElementById("card24").innerHTML = `
                     <h3>${seventhSon.title}</h3>
                     <p>${seventhSon.artist}</p>
                     <p class="preco"><strong>R$ ${seventhSon.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${seventhSon.title}', ${seventhSon.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -786,6 +810,7 @@ document.getElementById("card25").innerHTML = `
                     <h3>${noPrayer.title}</h3>
                     <p>${noPrayer.artist}</p>
                     <p class="preco"><strong>R$ ${noPrayer.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${noPrayer.title}', ${noPrayer.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -796,6 +821,7 @@ document.getElementById("card26").innerHTML = `
                     <h3>${theRazor.title}</h3>
                     <p>${theRazor.artist}</p>
                     <p class="preco"><strong>R$ ${theRazor.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${theRazor.title}', ${theRazor.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -806,6 +832,7 @@ document.getElementById("card27").innerHTML = `
                     <h3>${forTheAbout.title}</h3>
                     <p>${forTheAbout.artist}</p>
                     <p class="preco"><strong>R$ ${forTheAbout.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${forTheAbout.title}', ${forTheAbout.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -816,6 +843,7 @@ document.getElementById("card28").innerHTML = `
                     <h3>${backInBlack.title}</h3>
                     <p>${backInBlack.artist}</p>
                     <p class="preco"><strong>R$ ${backInBlack.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${backInBlack.title}', ${backInBlack.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -826,6 +854,7 @@ document.getElementById("card29").innerHTML = `
                     <h3>${useYourIlusion2.title}</h3>
                     <p>${useYourIlusion2.artist}</p>
                     <p class="preco"><strong>R$ ${useYourIlusion2.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${useYourIlusion2.title}', ${useYourIlusion2.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -836,6 +865,7 @@ document.getElementById("card30").innerHTML = `
                     <h3>${destiny.title}</h3>
                     <p>${destiny.artist}</p>
                     <p class="preco"><strong>R$ ${destiny.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${destiny.title}', ${destiny.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -846,6 +876,7 @@ document.getElementById("card31").innerHTML = `
                     <h3>${rockTheNation.title}</h3>
                     <p>${rockTheNation.artist}</p>
                     <p class="preco"><strong>R$ ${rockTheNation.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${rockTheNation.title}', ${rockTheNation.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -856,6 +887,7 @@ document.getElementById("card32").innerHTML = `
                     <h3>${skidRow.title}</h3>
                     <p>${skidRow.artist}</p>
                     <p class="preco"><strong>R$ ${skidRow.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${skidRow.title}', ${skidRow.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -866,6 +898,7 @@ document.getElementById("card33").innerHTML = `
                     <h3>${slaveToTheGrind.title}</h3>
                     <p>${slaveToTheGrind.artist}</p>
                     <p class="preco"><strong>R$ ${slaveToTheGrind.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${slaveToTheGrind.title}', ${slaveToTheGrind.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -876,6 +909,7 @@ document.getElementById("card34").innerHTML = `
                     <h3>${liveDonighton.title}</h3>
                     <p>${liveDonighton.artist}</p>
                     <p class="preco"><strong>R$ ${liveDonighton.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${liveDonighton.title}', ${liveDonighton.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -886,6 +920,7 @@ document.getElementById("card35").innerHTML = `
                     <h3>${liveUk.title}</h3>
                     <p>${liveUk.artist}</p>
                     <p class="preco"><strong>R$ ${liveUk.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${liveUk.title}', ${liveUk.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -896,6 +931,7 @@ document.getElementById("card36").innerHTML = `
                     <h3>${amomOfTheBeast.title}</h3>
                     <p>${amomOfTheBeast.artist}</p>
                     <p class="preco"><strong>R$ ${amomOfTheBeast.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${amomOfTheBeast.title}', ${amomOfTheBeast.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -906,6 +942,7 @@ document.getElementById("card37").innerHTML = `
                     <h3>${volume4.title}</h3>
                     <p>${volume4.artist}</p>
                     <p class="preco"><strong>R$ ${volume4.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${volume4.title}', ${volume4.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -916,6 +953,7 @@ document.getElementById("card38").innerHTML = `
                     <h3>${mobRules.title}</h3>
                     <p>${mobRules.artist}</p>
                     <p class="preco"><strong>R$ ${mobRules.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${mobRules.title}', ${mobRules.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -926,6 +964,7 @@ document.getElementById("card39").innerHTML = `
                     <h3>${cardComaOfSouls.title}</h3>
                     <p>${cardComaOfSouls.artist}</p>
                     <p class="preco"><strong>R$ ${cardComaOfSouls.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardComaOfSouls.title}', ${cardComaOfSouls.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -936,6 +975,7 @@ document.getElementById("card40").innerHTML = `
                     <h3>${cardEndlessPain.title}</h3>
                     <p>${cardEndlessPain.artist}</p>
                     <p class="preco"><strong>R$ ${cardEndlessPain.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardEndlessPain.title}', ${cardEndlessPain.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -946,6 +986,7 @@ document.getElementById("card41").innerHTML = `
                     <h3>${cardTombOfMutilated.title}</h3>
                     <p>${cardTombOfMutilated.artist}</p>
                     <p class="preco"><strong>R$ ${cardTombOfMutilated.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardTombOfMutilated.title}', ${cardTombOfMutilated.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -956,6 +997,7 @@ document.getElementById("card42").innerHTML = `
                     <h3>${cardStayHungry.title}</h3>
                     <p>${cardStayHungry.artist}</p>
                     <p class="preco"><strong>R$ ${cardStayHungry.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardStayHungry.title}', ${cardStayHungry.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -966,6 +1008,7 @@ document.getElementById("card43").innerHTML = `
                     <h3>${cardReignInBlood.title}</h3>
                     <p>${cardReignInBlood.artist}</p>
                     <p class="preco"><strong>R$ ${cardReignInBlood.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardReignInBlood.title}', ${cardReignInBlood.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -976,6 +1019,7 @@ document.getElementById("card44").innerHTML = `
                     <h3>${cardShowNoMercy.title}</h3>
                     <p>${cardShowNoMercy.artist}</p>
                     <p class="preco"><strong>R$ ${cardShowNoMercy.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardShowNoMercy.title}', ${cardShowNoMercy.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -986,6 +1030,7 @@ document.getElementById("card45").innerHTML = `
                     <h3>${cardLastInLine.title}</h3>
                     <p>${cardLastInLine.artist}</p>
                     <p class="preco"><strong>R$ ${cardLastInLine.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${cardLastInLine.title}', ${cardLastInLine.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -996,6 +1041,7 @@ document.getElementById("card46").innerHTML = `
                     <h3>${arise.title}</h3>
                     <p>${arise.artist}</p>
                     <p class="preco"><strong>R$ ${arise.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${arise.title}', ${arise.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -1006,6 +1052,7 @@ document.getElementById("card47").innerHTML = `
                     <h3>${chaosAd.title}</h3>
                     <p>${chaosAd.artist}</p>
                     <p class="preco"><strong>R$ ${chaosAd.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${chaosAd.title}', ${chaosAd.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -1016,6 +1063,7 @@ document.getElementById("card48").innerHTML = `
                     <h3>${benethTheRemains.title}</h3>
                     <p>${benethTheRemains.artist}</p>
                     <p class="preco"><strong>R$ ${benethTheRemains.price.toFixed(2)}</strong></p>
+                    <button class="add-to-cart" onclick="addToCart('${benethTheRemains.title}', ${benethTheRemains.price}, event)">Adicionar ao Carrinho</button>
                 </div>
             </div>
         `;
@@ -1029,7 +1077,7 @@ document.getElementById("card48").innerHTML = `
 let todosDiscos = [cardMetallica, cardInjustice, cardFearOf, cardVulgarPower, cardUseYourIlusion, cardQuatroEstacoes, cardBlackSabath, cardEnvelhecoCidade, cardCardume, cardCamisaVenus, cardMetallicaBlack, cardRideTheLight, cardLegion, cardDeicide, cardIronMaiden, cardKillers, cardFarBeyond, cardBlackOfSouls, cardEndComplete, cardObituary, maidenJapan, liveAfter, powerSlave, seventhSon, noPrayer, theRazor, forTheAbout, backInBlack, useYourIlusion2, destiny, rockTheNation, skidRow, slaveToTheGrind, liveDonighton, liveUk, amomOfTheBeast, volume4, mobRules, cardComaOfSouls, cardEndlessPain, cardTombOfMutilated, cardStayHungry, cardReignInBlood, cardShowNoMercy, cardLastInLine, arise, chaosAd, benethTheRemains];
 
 const listaCards = document.getElementById("centralizar");
-const contador = document.getElementById("contador");
+const totalDiscos = document.getElementById("totalDiscos");
 
 function renderCards(discos) {
     listaCards.innerHTML = "";
@@ -1046,13 +1094,16 @@ function renderCards(discos) {
     <h3>${disco.title}</h3>
     <p>${disco.artist}</p>
     <p class="preco">R$ ${disco.price.toFixed(2)}</p>
+    <button class="add-to-cart" onclick="addToCart('${disco.title}', ${disco.price}, event)">Adicionar ao Carrinho</button>
     </div>
     </a>
     </div>
     `;
     });
 
-    contador.textContent = `${discos.length} discos encontrados`;
+    if (totalDiscos) {
+        totalDiscos.textContent = `${discos.length} discos encontrados`;
+    }
 }
 
 
@@ -1075,15 +1126,26 @@ function filtrarDiscos() {
     renderCards(resultado);
 }
 
-let totalDiscos = document.getElementById("totalDiscos");
-totalDiscos.textContent = `${todosDiscos.length} discos disponíveis`;
-
 // ===== EVENTOS =====
 document.getElementById("filtroArtista").addEventListener("input", filtrarDiscos);
 document.getElementById("filtro-genero").addEventListener("change", filtrarDiscos);
 
 // ===== INICIAL =====
 renderCards(todosDiscos);
+if (totalDiscos) {
+    totalDiscos.textContent = `${todosDiscos.length} discos disponíveis`;
+}
+
+// ===== URL PARAM FILTER =====
+const urlParams = new URLSearchParams(window.location.search);
+const genreParam = urlParams.get('genre');
+if (genreParam) {
+    const filtroGenero = document.getElementById("filtro-genero");
+    if (filtroGenero) {
+        filtroGenero.value = genreParam;
+        filtrarDiscos();
+    }
+}
 
 
 

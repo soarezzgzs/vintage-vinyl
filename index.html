@@ -25,25 +25,58 @@
                         <li><a id="parteDireita" href="./catalogo/catalogo.html">Catálogo</a></li>
                         <li><a id="parteDireita" href="./novidades/novidades.html">Novidades</a></li>
                     </div>
+
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping desktop-only">
+                        <span id="cart-count" class="cart-count">0</span>
+                        <div class="cart">
+                            <h2>Carrinho</h2>
+                            <ul id="cart-items"></ul>
+                            <div class="cart-foot">
+                                <p>Total: R$ <span id="cart-total">0</span></p>
+                                <button class="checkout">Finalizar Compra</button>
+                            </div>
+                        </div>
+                    </i>
                 </div>
-                    <div class="mobile-only">
+                <div class="mobile-only">
                     <div class="mobile-header">
                         <div class="mobile-logo">
-                        <img class="imgCD" src="assets/cd.png" alt="">
-                        <p id="cr"><a href="#"></a>Vintage Vinyl</p>
-                        <br>
+                            <img class="imgCD" src="assets/cd.png" alt="">
+                            <p id="cr"><a href="#"></a>Vintage Vinyl</p>
+                            <br>
                         </div>
-                        <div class="mobile-menu-icon" id="mobile-menu-icon">
-                            <i class="fa-solid fa-bars"></i>
+                        <div class="mobile-header-icons">
+                            <i id="mobile-cart-icon" class="fa-solid fa-cart-shopping">
+                                <span id="mobile-cart-count" class="cart-count">0</span>
+                            </i>
+                            <div class="mobile-menu-icon" id="mobile-menu-icon">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="mobile-menu" id="mobile-menu">
                         <ul>
-                        <li><a id="parteDireita" href="./index.html">Inicio</a></li>
-                        <li><a id="parteDireita" href="./catalogo/catalogo.html">Catálogo</a></li>
-                        <li><a id="parteDireita" href="./novidades/novidades.html">Novidades</a></li>
+                            <li><a id="parteDireita" href="./index.html">Inicio</a></li>
+                            <li><a id="parteDireita" href="./catalogo/catalogo.html">Catálogo</a></li>
+                            <li><a id="parteDireita" href="./novidades/novidades.html">Novidades</a></li>
                         </ul>
                     </div>
+                    <div class="mobile-cart" id="mobile-cart">
+                        <div class="mobile-cart-content">
+                            <div class="mobile-cart-header">
+                                <h2>Carrinho</h2>
+                                <button id="mobile-cart-close" class="mobile-cart-close"><i
+                                        class="fa-solid fa-times"></i></button>
+                            </div>
+                            <ul id="mobile-cart-items"></ul>
+                            <div class="mobile-cart-foot">
+                                <p>Total: R$ <span id="mobile-cart-total">0</span></p>
+                                <button class="mobile-checkout">Finalizar Compra</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 </div>
             </ul>
@@ -85,7 +118,7 @@
                 </div>
                 <div class="metal" onclick="metal()">
                     <i class="fa-solid fa-music"></i>
-                    <p>Metal</p>
+                    <p>Thrash Metal</p>
                 </div>
                 <div class="heavyMetal" onclick="heavyMetal()">
                     <i class="fa-solid fa-music"></i>
@@ -148,5 +181,7 @@
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/98476fcc99.js" crossorigin="anonymous"></script>
+<script src="cart.js"></script>
 <script src="java.js"></script>
+
 </html>

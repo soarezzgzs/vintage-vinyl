@@ -120,6 +120,8 @@ document.getElementById("card1").innerHTML = `
             <h3>${produtos[1].title}</h3>
             <p>${produtos[1].artist}</p>
             <p class="preco"><strong>R$ ${produtos[1].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[1].title}', ${produtos[1].price}, event)">Adicionar ao Carrinho</button>
+
         </div>
     </div>
 `;
@@ -131,6 +133,8 @@ document.getElementById("card2").innerHTML = `
             <h3>${produtos[2].title}</h3>
             <p>${produtos[2].artist}</p>
             <p class="preco"><strong>R$ ${produtos[2].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[2].title}', ${produtos[2].price}, event)">Adicionar ao Carrinho</button>
+
         </div>
     </div>
 `;
@@ -142,6 +146,8 @@ document.getElementById("card3").innerHTML = `
             <h3>${produtos[3].title}</h3>
             <p>${produtos[3].artist}</p>
             <p class="preco"><strong>R$ ${produtos[3].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[3].title}', ${produtos[3].price}, event)">Adicionar ao Carrinho</button>
+
         </div>
     </div>
 `;
@@ -153,6 +159,8 @@ document.getElementById("card4").innerHTML = `
             <h3>${produtos[4].title}</h3>
             <p>${produtos[4].artist}</p>
             <p class="preco"><strong>R$ ${produtos[4].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[4].title}', ${produtos[4].price}, event)">Adicionar ao Carrinho</button>
+
         </div>
     </div>
 `;
@@ -164,6 +172,8 @@ document.getElementById("card5").innerHTML = `
             <h3>${produtos[5].title}</h3>
             <p>${produtos[5].artist}</p>
             <p class="preco"><strong>R$ ${produtos[5].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[5].title}', ${produtos[5].price}, event)">Adicionar ao Carrinho</button>
+
         </div>
     </div>
 `;
@@ -179,6 +189,9 @@ document.getElementById("card6").innerHTML = `
             <h3>${produtos[6].title}</h3>
             <p>${produtos[6].artist}</p>
             <p class="preco"><strong>R$ ${produtos[6].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[6].title}', ${produtos[6].price}, event)">Adicionar ao Carrinho</button>
+
+
         </div>
     </div>
 `;
@@ -190,6 +203,7 @@ document.getElementById("card7").innerHTML = `
             <h3>${produtos[7].title}</h3>
             <p>${produtos[7].artist}</p>
             <p class="preco"><strong>R$ ${produtos[7].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[7].title}', ${produtos[7].price}, event)">Adicionar ao Carrinho</button>
 
         </div>
     </div>
@@ -202,6 +216,7 @@ document.getElementById("card8").innerHTML = `
             <h3>${produtos[8].title}</h3>
             <p>${produtos[8].artist}</p>
             <p class="preco"><strong>R$ ${produtos[8].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[8].title}', ${produtos[8].price}, event)">Adicionar ao Carrinho</button>
 
         </div>
     </div>
@@ -214,6 +229,7 @@ document.getElementById("card9").innerHTML = `
             <h3>${produtos[9].title}</h3>
             <p>${produtos[9].artist}</p>
             <p class="preco"><strong>R$ ${produtos[9].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[9].title}', ${produtos[9].price}, event)">Adicionar ao Carrinho</button>
         </div>
     </div>
 `;
@@ -225,20 +241,21 @@ document.getElementById("card10").innerHTML = `
             <h3>${produtos[10].title}</h3>
             <p>${produtos[10].artist}</p>
             <p class="preco"><strong>R$ ${produtos[10].price.toFixed(2)}</strong></p>
+            <button class="add-to-cart" onclick="addToCart('${produtos[10].title}', ${produtos[10].price}, event)">Adicionar ao Carrinho</button>
         </div>
     </div>
 `;
 
 function rockClassico() {
-    window.location.href = "./catalogo/catalogo.html"
+    window.location.href = "./catalogo/catalogo.html?genre=rockNacional"
 }
 
 function metal() {
-    window.location.href = "./catalogo/catalogo.html"
+    window.location.href = "./catalogo/catalogo.html?genre=thrashMetal"
 }
 
 function heavyMetal() {
-    window.location.href = "./catalogo/catalogo.html"
+    window.location.href = "./catalogo/catalogo.html?genre=heavyMetal"
 }
 
 

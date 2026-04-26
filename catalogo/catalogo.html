@@ -11,40 +11,70 @@
 <header>
     <nav>
         <ul>
-                <div class="divSuprema desktop-only">
-                    <div class="esquerda">
+            <div class="divSuprema desktop-only">
+                <div class="esquerda">
+                    <img class="imgCD" src="../assets/cd.png" alt="">
+                    <p id="cr"><a href="#"></a>Vintage Vinyl</p>
+                    <br>
+                    <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
+                </div>
+                <div class="direita" id="navLinks">
+                    <li><a id="parteDireita" href="../index.html">Inicio</a></li>
+                    <li><a id="parteDireita" href="./catalogo.html">Catálogo</a></li>
+                    <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
+                </div>
+                <i id="cart-icon" class="fa-solid fa-cart-shopping">
+                    <span id="cart-count" class="cart-count">0</span>
+                    <div class="cart">
+                        <h2>Carrinho</h2>
+                        <ul id="cart-items"></ul>
+                        <div class="cart-foot">
+                            <p>Total: R$ <span id="cart-total">0</span></p>
+                            <button class="checkout">Finalizar Compra</button>
+                        </div>
+                    </div>
+                </i>
+            </div>
+            <div class="mobile-only">
+                <div class="mobile-header">
+                    <div class="mobile-logo">
                         <img class="imgCD" src="../assets/cd.png" alt="">
                         <p id="cr"><a href="#"></a>Vintage Vinyl</p>
                         <br>
-                        <p id="contabilidade"><a href="#"></a>Clássicos em Vinil</p>
                     </div>
-                    <div class="direita" id="navLinks">
-                        <li><a id="parteDireita" href="../index.html">Inicio</a></li>
-                        <li><a id="parteDireita" href="./catalogo.html">Catálogo</a></li>
-                        <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
-                    </div>
-                </div>
-                    <div class="mobile-only">
-                    <div class="mobile-header">
-                        <div class="mobile-logo">
-                        <img class="imgCD" src="assets/cd.png" alt="">
-                        <p id="cr"><a href="#"></a>Vintage Vinyl</p>
-                        <br>
-                        </div>
+                    <div class="mobile-header-icons">
+                        <i id="mobile-cart-icon" class="fa-solid fa-cart-shopping">
+                            <span id="mobile-cart-count" class="cart-count">0</span>
+                        </i>
                         <div class="mobile-menu-icon" id="mobile-menu-icon">
                             <i class="fa-solid fa-bars"></i>
                         </div>
                     </div>
-                    <div class="mobile-menu" id="mobile-menu">
-                        <ul>
+                </div>
+                <div class="mobile-menu" id="mobile-menu">
+                    <ul>
                         <li><a id="parteDireita" href="../index.html">Inicio</a></li>
                         <li><a id="parteDireita" href="./catalogo.html">Catálogo</a></li>
                         <li><a id="parteDireita" href="../novidades/novidades.html">Novidades</a></li>
-                        </ul>
-                    </div>
-
+                    </ul>
                 </div>
-            </ul>
+                <div class="mobile-cart" id="mobile-cart">
+                    <div class="mobile-cart-content">
+                        <div class="mobile-cart-header">
+                            <h2>Carrinho</h2>
+                            <button id="mobile-cart-close" class="mobile-cart-close"><i
+                                    class="fa-solid fa-times"></i></button>
+                        </div>
+                        <ul id="mobile-cart-items"></ul>
+                        <div class="mobile-cart-foot">
+                            <p>Total: R$ <span id="mobile-cart-total">0</span></p>
+                            <button class="mobile-checkout">Finalizar Compra</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </ul>
     </nav>
 </header>
 
@@ -64,20 +94,20 @@
             <option value="grooveMetal">Groove Metal</option>
             <option value="hardRock">Hard Rock</option>
         </select>
-        
+
     </div>
     <section id="catalogo">
         <div id="centralizar" class="grid-catalogo">
             <div class="cards1">
                 <a href="../produtos/produto.html?id=1" id="card1" class="card"></a>
-                <a href="../produtos/produto.html?id=2"  id="card2" class="card"></a>
-                <a href="../produtos/produto.html?id=3"  id="card3" class="card"></a>
-                <a href="../produtos/produto.html?id=4"  id="card4" class="card"></a>
-                <a href="../produtos/produto.html?id=5"  id="card5" class="card"></a>
+                <a href="../produtos/produto.html?id=2" id="card2" class="card"></a>
+                <a href="../produtos/produto.html?id=3" id="card3" class="card"></a>
+                <a href="../produtos/produto.html?id=4" id="card4" class="card"></a>
+                <a href="../produtos/produto.html?id=5" id="card5" class="card"></a>
             </div>
             <div class="cards2">
                 <a href="../produtos/produto.html?id=6" id="card6" class="card"></a>
-                <a href="../produtos/produto.html?id=7"id="card7" class="card"></a>
+                <a href="../produtos/produto.html?id=7" id="card7" class="card"></a>
                 <a href="../produtos/produto.html?id=8" id="card8" class="card"></a>
                 <a href="../produtos/produto.html?id=9" id="card9" class="card"></a>
                 <a href="../produtos/produto.html?id=10" id="card10" class="card"></a>
@@ -140,7 +170,7 @@
     </section>
 </body>
 <footer id="solicitar">
-        <div class="centralizar2">
+    <div class="centralizar2">
 
         <div class="esquerda2">
 
@@ -153,12 +183,14 @@
             <a href="./catalogo.html">Catálogo</a>
             <a href="../novidades/novidades.html">Novidades</a>
         </div>
-        
+
         <div class="redesSociais">
             <li id="contabilidade2">Redes Sociais</li>
             <div>
-                <a href="https://www.linkedin.com/in/leonardo-soares-57a19039b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href=# target="_blank" rel="noopener noreferrer" class="instagram-icon"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/leonardo-soares-57a19039b/" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href=# target="_blank" rel="noopener noreferrer" class="instagram-icon"><i
+                        class="fab fa-instagram fa-2x"></i></a>
             </div>
             <p>Siga-nos para dicas e novidades sobre contabilidade!</p>
         </div>
@@ -166,9 +198,10 @@
     <div class="direitosReservados">
         <p>© 2026 Vintage Vinyl. Todos os direitos reservados.</p>
     </div>
-        </div>
+    </div>
 
 </footer>
+<script src="../cart.js"></script>
 <script src="catalogo.js"></script>
 
 </html>
