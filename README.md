@@ -43,14 +43,6 @@ Opções de filtro por Genêro / Banda
 
 Telas específicas por disco
 ____________________________________________________________________________________
-📞 **Contato**
-
-Telefone/WhatsApp: (35) 98443-1748
-
-LinkedIn: Paulo Soares (https://www.linkedin.com/in/paulo-s%C3%A9rgio-soares-b8a7466b/)
-
-Instagram: @paulo.s.soares 
-____________________________________________________________________________________
 👨‍💻 **Autor**
 
 Desenvolvido por Leonardo Soares
